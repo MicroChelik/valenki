@@ -5,12 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<title>Глазовские валенки</title>
 </head>
 <body>
 	<header>
-		<div class="first-line">
+		<div class="first-line border-line">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-2 d-flex align-items-center">
@@ -56,7 +58,7 @@
 						<ul class="topmenu">
 							<li><a href="">Главная</a></li>
 							<li><a href="">О компании</a></li>
-							<li><a href="" class="submenu-link">Каталог </a>
+							<li><a href="" class="submenu-link">Каталог</a>
 								<ul class="submenu">
 									<li><a href="">Женские валенки</a></li>
 									<li><a href="">Мужские валенки</a></li>
@@ -81,50 +83,266 @@
 		</div>
 	</header>
 	<section>
-		<div class="container-fluid">
-			<div class="main-slider">
+		<div class="main-slider">
+			<div class="main-slider-img">
+				<div class="container">
+					<div class="col-5">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="yellowBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+			<div class="main-slider-img">
+				<div class="container">
+					<div class="col-5">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="yellowBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+			<div class="main-slider-img">
+				<div class="container">
+					<div class="col-5">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="yellowBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="border-line">
+		<div class="container">
+			<div class="row img-rounded">
+				<div class="col-auto">
+					<div class="val1">
+						<h3>ВАЛЕНКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val2">
+						<h3>ТАПОЧКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val3">
+						<h3>ПОЛУВАЛЕНКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val4">
+						<h3>БОТИНКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val5">
+						<h3>СОПУТСТВУЮЩИЕ<br>ТОВАРЫ</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row advantages">
+				<div class="col-lg-3">
+					<img src="img/icons/clock.png">
+					<p>20 лет на<br>рынке</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/icons/ecology.png">
+					<p>Только экологически<br>чистые материалы</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/icons/planet-earth.png">
+					<p>Работаем<br>по всему миру</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/icons/test.png">
+					<p>Без использования<br>химии</p>
+				</div>
+			</div>
+			<div class="row product-targets justify-content-between">
+				<div class="col-12">
+					<h2>Для кого наша продукция?</h2>
+				</div>
+				<div class="col-auto">
+					<img src="img/target1.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target2.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target3.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target4.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target5.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 subscribe-text">
+					<p>Подписаться на рассылку</p>
+					<p>Подпишитесь на последние обновления и узнавайте о новинках и специальных предложениях первыми.</p>
+				</div>
+				<div class="col-lg-7 subscribe-input">
+					<form>
+						<input type="text" placeholder="Имя">
+						<input type="email" placeholder="E-mail">
+						<input type="submit" placeholder="Подписаться" class="yellowBtn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container our-products">
+			<div class="row">
+				<div class="col-12">
+					<h2>Наша продукция</h2>
+				</div>
+			</div>
+			<div class="row justify-content-end">
+				<div class="col-auto">
+					<button class="all-photos">Смотреть все фото</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<div>
+						<img src="img/product1.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div>
+						<img src="img/product2.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div>
+						<img src="img/product3.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div>
+						<img src="img/product4.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="feedback">
+		<div class="container">
+			<div class="row justify-content-center">
+				
+					
+					<form>
+						<h2>Поможем с выбором и ответим на Ваши вопросы!</h2>
+						<div class="row justify-content-center">
+							<div class="col-6">
+								<input type="text" class="" placeholder="Имя">
+								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+							</div>
+							<div class="form-group col-6">
+								<input type="email" class="" placeholder="E-mail (по желанию)">
+								<input type="text" class="" placeholder="Номер телефона">
+								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
+							</div>
+							<div class="form-group col-4">
+								<input type="submit" class="yellowBtn ">
+							</div>
+						</div>
+					</form>
 				
 			</div>
 		</div>
 	</section>
-	<section>
-		<div class="container">
-			<div class="row">
-				шары
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="container">
-			<div class="row">
-				зеленая шляпа
-			</div>
-			<div class="row">
-				для кого наша продукция
-			</div>
-		</div>
-	</section>
-	<section>
-		<div class="container">
-			<div class="row">
-				белая подписка
-			</div>
-		</div>
-	</section>
-	<section>
-		сама продукция
-	</section>
-	<section>
-		форма связи
-	</section>
 	<footer>
-		<div class="footer-main">
-			
+		<div class="footer-main border-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-2">
+						<div class="social-links">
+							<a href="">
+								<img src="img/icons/social1.png">
+							</a>
+							<a href="">
+								<img src="img/icons/social2.png">
+							</a>
+							<a href="">
+								<img src="img/icons/social3.png">
+							</a>
+							<a href="">
+								<img src="img/icons/social4.png">
+							</a>
+						</div>
+						<button class="footerBtn">Написать нам</button>
+					</div>
+					<div class="col-1 offset-1">
+						<ul>
+							<li><a href="">Главная</a></li>
+							<li><a href="">О компании</a></li>
+							<li><a href="">Каталог</a></li>
+							<li><a href="">Оптовикам</a></li>
+						</ul>
+					</div>
+					<div class="col-2 offset-1">
+						<ul>
+							<li><a href="">Новости и акции</a></li>
+							<li><a href="">Для клиента</a></li>
+							<li><a href="">Отзывы</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-2">
+						<p>ПН-ЧТ - с 8:00 до 17:00</p>
+						<p>ПТ - с 8:00 до 16:00</p>
+						<p>СБ-ВС - выходной</p>
+					</div>
+					<div class="col-2 offset-1">
+						<p>+7 (34141) 3 84 94<br>+7 (919) 910 64 83</p>
+						<p>Salex73@ya.ru</p>
+						<p>Удмуртия, г. Глазов,<br>ул. Глинки 2</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="last-line">
-			
+			<div class="container">
+				<div class="row">
+					<div class="col-3">
+						<p>© ООО ПИМЫ</p>
+					</div>
+					<div class="col-3">
+						<p>
+							<a href="">Политика конфиденциальности</a>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</footer>
-</body>
+
+	<script src="js/main.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 </body>
 </html>
