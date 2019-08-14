@@ -1,0 +1,198 @@
+<?php
+	include('html-start.php');
+?>
+	<section>
+		<div class="slider-main">
+			<div class="slider-main-img">
+				<div class="container">
+					<div class="col-5">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="yellowBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+			<div class="slider-main-img">
+				<div class="container">
+					<div class="col-5">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="yellowBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+			<div class="slider-main-img">
+				<div class="container">
+					<div class="col-5">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="yellowBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="border-line">
+		<div class="container">
+			<div class="row img-rounded">
+				<div class="col-auto">
+					<div class="val1">
+						<h3>ВАЛЕНКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val2">
+						<h3>ТАПОЧКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val3">
+						<h3>ПОЛУВАЛЕНКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val4">
+						<h3>БОТИНКИ</h3>
+					</div>
+				</div>
+				<div class="col-auto">
+					<div class="val5">
+						<h3>СОПУТСТВУЮЩИЕ<br>ТОВАРЫ</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row advantages">
+				<div class="col-lg-3">
+					<img src="img/icons/clock.png">
+					<p>20 лет на<br>рынке</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/icons/ecology.png">
+					<p>Только экологически<br>чистые материалы</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/icons/planet-earth.png">
+					<p>Работаем<br>по всему миру</p>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/icons/test.png">
+					<p>Без использования<br>химии</p>
+				</div>
+			</div>
+			<div class="row product-targets justify-content-between">
+				<div class="col-12">
+					<h2>Для кого наша продукция?</h2>
+				</div>
+				<div class="col-auto">
+					<img src="img/target1.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target2.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target3.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target4.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+				<div class="col-auto">
+					<img src="img/target5.png">
+					<h3>Валенки для взрослых<br>и детей</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 subscribe-text">
+					<p>Подписаться на рассылку</p>
+					<p>Подпишитесь на последние обновления и узнавайте о новинках и специальных предложениях первыми.</p>
+				</div>
+				<div class="col-lg-7 subscribe-input">
+					<form>
+						<input type="text" placeholder="Имя">
+						<input type="email" placeholder="E-mail">
+						<input type="submit" placeholder="Подписаться" class="yellowBtn">
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container our-products">
+			<div class="row">
+				<div class="col-12">
+					<h2>Наша продукция</h2>
+				</div>
+			</div>
+			<div class="row justify-content-end">
+				<div class="col-auto">
+					<button class="all-photos">Смотреть все фото</button>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3">
+					<div>
+						<img src="img/product1.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div>
+						<img src="img/product2.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div>
+						<img src="img/product3.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+				<div class="col-3">
+					<div>
+						<img src="img/product4.png">
+						<p>В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет...<a href="">Читать далее</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="feedback">
+		<div class="container">
+			<div class="row justify-content-center">
+				
+					
+					<form>
+						<h2>Поможем с выбором и ответим на Ваши вопросы!</h2>
+						<div class="row justify-content-center">
+							<div class="col-6">
+								<input type="text" class="" placeholder="Имя">
+								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+							</div>
+							<div class="form-group col-6">
+								<input type="email" class="" placeholder="E-mail (по желанию)">
+								<input type="text" class="" placeholder="Номер телефона">
+								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
+							</div>
+							<div class="form-group col-4">
+								<input type="submit" class="yellowBtn ">
+							</div>
+						</div>
+					</form>
+				
+			</div>
+		</div>
+	</section>
+	<?php
+	include('html-end.php');
+?>
