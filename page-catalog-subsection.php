@@ -49,6 +49,7 @@
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
+						<p class="product-sale"><img src="img/icons/percent.svg"></p>
 					</div>
 				</div>
 				<div class="col-3">
@@ -153,12 +154,32 @@
 					</div>
 				</div>
 			</div>
-			<div class="row justify-content-end">
-				<div class="col-3">
-					здесь будет пагинация
+			<div class="row pagination-tools">
+				<div class="col-auto">
+					<div class="pagination">
+						<p class="first-page">1</p>
+						<div class="prev-page">
+							<img src="img/icons/arrowGreen.svg">
+						</div>
+						<ul>
+							<li class="active">2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+						</ul>
+						<div class="next-page">
+							<img src="img/icons/arrowGreen.svg">
+						</div>
+						<p class="last-page">50</p>
+					</div>
 				</div>
-				<div class="col-3">
-					
+				<div class="col-3 products-on-page">
+					<p>товаров на странице</p>
+					<select>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+					</select>
 				</div>
 			</div>
 		</div>

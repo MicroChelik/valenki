@@ -81,4 +81,26 @@
 				</div>
 			</div>
 		</div>
+		<div class="mobile-line container">
+			<div class="row">
+				<div class="col-auto">
+					<div id="nav-icon3">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</div>
+				</div>
+				<div class="col-auto">
+					<img src="img/logo-mobile.png">
+				</div>
+				<div class="col-auto">
+					<!-- <button class="searchBtn"><img src="img/icons/search-mobile.svg"></button> -->
+					<div class="search-container">
+					  <input type="text" placeholder="Search...">
+					  <div class="search"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</header>
