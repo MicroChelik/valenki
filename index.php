@@ -41,6 +41,15 @@
 					</div>
 				</div>
 			</div>
+			<div class="slider-mobile-main-img">
+				<div class="container">
+					<div class="col-12">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="greenBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="border-line">

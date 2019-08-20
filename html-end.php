@@ -62,8 +62,49 @@
 				</div>
 			</div>
 		</div>
+		<div class="footer-mobile-line">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-10">
+						<div class="social-links">
+							<a href="">
+								<img src="img/icons/social1.png">
+							</a>
+							<a href="">
+								<img src="img/icons/social2.png">
+							</a>
+							<a href="">
+								<img src="img/icons/social3.png">
+							</a>
+							<a href="">
+								<img src="img/icons/social4.png">
+							</a>
+						</div>
+					</div>
+					<div class="col-8">
+						<button class="greenWgiteBtn">Написать нам</button>
+					</div>
+					<div class="col-10 d-flex justify-content-between">
+						<p>+7 (34141) 3 84 94</p>
+						<p>+7 (34141) 3 84 94</p>
+					</div>
+					<div class="col-5">
+						<p>Salex73@ya.ru</p>
+					</div>
+				</div>
+				<div class="footer-last-line row justify-content-between">
+					<div class="col-4">
+						<p>© ООО ПИМЫ</p>
+					</div>
+					<div class="col-6">
+						<p><a href="">Политика конфиденциальности</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 
+	<div id="toTop" ><img src="img/icons/top.png"></div>
 	<script src="js/main.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script type="text/javascript" src="js/slick.min.js"></script>

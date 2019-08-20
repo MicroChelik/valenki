@@ -27,11 +27,37 @@ $(document).ready(function(){
 
 	$('#nav-icon3').click(function(){
 		$(this).toggleClass('open');
+		$('.men').toggleClass('active');
+	});
+	$('.redArrow').click(function(){
+		$(this).toggleClass('redOpen');
+		$(this).next('.submenu').slideToggle('200');
+	});
+
+	$(function() {
+		$(window).scroll(function() {
+			if($(this).scrollTop() != 0) {
+				$('#toTop').fadeIn();
+			} else {
+				$('#toTop').fadeOut();
+			}
+		});
+		$('#toTop').click(function() {
+			$('body,html').animate({scrollTop:0},10);
+		});
 	});
 	
 	
 
 	$('.slider-main').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: true,
+		dotsClass: "my-dots",
+	});
+	$('.slider-mobile-main').slick({
 		infinite: false,
 		slidesToShow: 1,
 		slidesToScroll: 1,

@@ -91,13 +91,36 @@
 					  <span></span>
 					</div>
 				</div>
+				<div class="men">
+					<ul class="topmenu">
+							<li><a href="">Главная</a></li>
+							<li><a href="">О компании</a></li>
+							<li><a href="" class="submenu-link">Каталог</a> <div class="redArrow"></div>
+								<ul class="submenu">
+									<li><a href="">Женские валенки</a></li>
+									<li><a href="">Мужские валенки</a></li>
+									<li><a href="">Детские валенки</a></li>
+								</ul>
+							</li>
+							<li><a href="">Оптовикам</a></li>
+							<li><a href="">Новости и акции</a></li>
+							<li><a href="">Для клиента </a> <div class="redArrow"></div>
+								<ul class="submenu" class="submenu-link">
+									<li><a href="">Женские валенки</a></li>
+									<li><a href="">Мужские валенки</a></li>
+									<li><a href="">Детские валенки</a></li>
+								</ul>
+							</li>
+							<li><a href="">Отзывы</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+				</div>
 				<div class="col-auto">
 					<img src="img/logo-mobile.png">
 				</div>
 				<div class="col-auto">
-					<!-- <button class="searchBtn"><img src="img/icons/search-mobile.svg"></button> -->
 					<div class="search-container">
-					  <input type="text" placeholder="Search...">
+					  <input type="text" placeholder="Поиск">
 					  <div class="search"></div>
 					</div>
 				</div>

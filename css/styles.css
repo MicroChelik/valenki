@@ -101,6 +101,9 @@ nav ul {
   justify-content: space-between;
   width: 100%;
 }
+.imgw100 img{
+  width: 100%;
+}
 /*.topmenu:after {
   content: "";
   display: table;
@@ -121,37 +124,7 @@ nav ul {
   /*padding: 15px 30px;*/
 }
 .topmenu li a:hover { color: #A60101; text-decoration: none; }
-.submenu-link:after {
-  content: "\f107";
-  font-family: "FontAwesome";
-  color: inherit;
-  margin-left: 10px;
-}
-.submenu {
-  background: #F5F5F5;
-  position: absolute;
-  display: block;
-  left: -50%;
-  top: 100%;
-  z-index: 5;
-  width: 180px;
-  opacity: 0;
-  transform: scaleY(0);
-  transform-origin: 0 0;
-  transition: .5s ease-in-out;
-}
-.submenu a {
-  color: #3F3F3F;
-  text-align: center;
-  padding: 9px 18px;
-  font-size: 13px;
-  /*border-bottom: 1px solid rgba(255,255,255,.1);*/
-}
-.submenu li:last-child a { border-bottom: none; }
-.topmenu > li:hover .submenu {
-  opacity: 1;
-  transform: scaleY(1);
-}
+
 
 .search {
 	position: relative;
@@ -1066,16 +1039,96 @@ footer ul a:hover{
 .my-form-group .div-inputfile{
   margin-bottom: 45px;
 }
-
-
-.mobile-line{
+#toTop {
+  width:100px;
+  padding:5px;
+  position:fixed;
+  bottom:40px;
+  right:10px;
+  cursor:pointer;
+  display:none;
+}
+.mobile-line,
+.footer-mobile-line,
+.slider-mobile-main{
   display: none;
 }
+
+/*page-opt*/
+.slider-partner-slide{
+  width: 237px;
+}
+
+/*page-news*/
+.news-card{
+  display: flex;
+  border-radius: 25px;
+  background-color: #fff;
+  height: 208px;
+}
+.news-img{
+  width: 35%;
+  background-size: cover;
+}
+.news-img1{
+  background-image: url('../img/news/1.png');
+}
+.news-img2{
+  background-image: url('../img/news/2.png');
+}
+.news-description{
+  max-width: 65%;
+  padding: 13px 12px 0px 22px;
+}
+.news-title{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.news-date{
+  color: #828282;
+  margin-bottom: 24px;
+}
+.news-text{
+  margin-bottom: 0;
+}
+
+
+
 @media (min-width: 1200px){
   .container{
   	max-width: 1304px;
   }
 }
+
+@media (min-width: 961px){
+  .submenu {
+    background: #F5F5F5;
+    position: absolute;
+    display: block;
+    left: -50%;
+    top: 100%;
+    z-index: 5;
+    width: 180px;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    transition: .5s ease-in-out;
+  }
+  .submenu a {
+    color: #3F3F3F;
+    text-align: center;
+    padding: 9px 18px;
+    font-size: 13px;
+    /*border-bottom: 1px solid rgba(255,255,255,.1);*/
+  }
+  .submenu li:last-child a { border-bottom: none; }
+  .topmenu > li:hover .submenu {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
 @media (max-width: 960px){
   body{
     font-size: 14px;
@@ -1096,9 +1149,9 @@ footer ul a:hover{
   .slider-mobile-main-img{
     text-align: center;
     background-color: #654321;
-    height: 543px;
+    height: 543px !important;
     align-items: center;
-    display: flex;
+    display: flex !important;
   }
   .slide-header{
     font-size: 40px;
@@ -1135,9 +1188,12 @@ footer ul a:hover{
 
   .search-container {
     position: absolute;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: -10px;
     top: 0;
-    left: 0;
+    left: -140px;
     right: 0;
     bottom: 0;
     width: 300px;
@@ -1145,18 +1201,20 @@ footer ul a:hover{
   }
   .search-container .search {
     position: absolute;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 10px;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    width: 80px;
-    height: 80px;
-    background: crimson;
+    width: 30px;
+    height: 30px;
+    background: #F5F5F5;
     border-radius: 50%;
     transition: all 1s;
     z-index: 4;
-    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
   }
   .search-container .search:hover {
     cursor: pointer;
@@ -1164,49 +1222,53 @@ footer ul a:hover{
   .search-container .search::before {
     content: "";
     position: absolute;
-    margin: auto;
-    top: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    top: 10px;
     right: 0;
     bottom: 0;
-    left: 22px;
-    width: 12px;
+    left: 10px;
+    width: 7px;
     height: 2px;
-    background: white;
+    background: #061C2E;
     transform: rotate(45deg);
     transition: all 0.5s;
   }
   .search-container .search::after {
     content: "";
     position: absolute;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
     top: -5px;
     right: 0;
     bottom: 0;
     left: -5px;
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid #061C2E;
     transition: all 0.5s;
   }
   .search-container input {
-    font-family: 'Inconsolata', monospace;
     position: absolute;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     width: 50px;
-    height: 50px;
+    height: 40px;
     outline: none;
     border: none;
-    background: crimson;
-    color: white;
-    text-shadow: 0 0 10px crimson;
-    padding: 0 80px 0 20px;
-    border-radius: 30px;
-    box-shadow: 0 0 25px 0 crimson, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(63, 63, 63, 1);
+    padding: 0 40px 0 20px;
+    border-radius: 50px;
     transition: all 1s;
     opacity: 0;
     z-index: 5;
@@ -1218,33 +1280,31 @@ footer ul a:hover{
   }
   .search-container input:focus {
     width: 300px;
+    left: -250px;
     opacity: 1;
     cursor: text;
   }
   .search-container input:focus ~ .search {
-    right: -250px;
-    background: #151515;
+    background: #fff;
     z-index: 6;
   }
   .search-container input:focus ~ .search::before {
     top: 0;
     left: 0;
-    width: 25px;
+    width: 15px;
   }
   .search-container input:focus ~ .search::after {
     top: 0;
     left: 0;
-    width: 25px;
+    width: 15px;
     height: 2px;
     border: none;
-    background: white;
+    background: #061C2E;
     border-radius: 0%;
     transform: rotate(-45deg);
   }
   .search-container input::placeholder {
-    color: white;
-    opacity: 0.5;
-    font-weight: bolder;
+    color: rgba(63, 63, 63, 0.5);
   }
 
 
@@ -1316,6 +1376,113 @@ footer ul a:hover{
     width: 0%;
     left: 50%;
   }
+
+  .men{
+  	display: none;
+  }
+  .mobile-line .active{
+  	display: block;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    overflow: visible;
+    background: #fff;
+    top: 60px;
+    background-color: #F5F5F5;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  .men ul{
+  	padding-left: 15px;
+  	list-style: none;
+  }
+  .men .topmenu > li{
+  	padding: 23px 0;
+  }
+
+  
+  .redArrow::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 0px;
+    width: 7px;
+    height: 1px;
+    background: #061C2E;
+    transform: rotate(30deg);
+    transition: all 0.5s;
+  }
+  .redArrow::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 0;
+    left: 6px;
+    width: 7px;
+    height: 1px;
+    background: #061C2E;
+    transform: rotate(150deg);
+    transition: all 0.5s;
+  }
+  .redArrow{
+  	width: 20px;
+  	height: 20px;
+  	display: block;
+  	position: absolute;
+  	top: 35%;
+  	right: 2%;
+  }
+  .redOpen::after{
+  	transform: rotate(30deg);
+  	background: #A60101;
+  }
+  .redOpen::before{
+  	transform: rotate(150deg);
+  	background: #A60101;
+  }
+  .da{
+  	position: unset;
+  }
+  .submenu{
+  	display: none;
+  }
+  .slider-mobile-main{
+  	display: flex;
+  }
+  .footer-mobile-line{
+  	display: block;
+  	background-color: #FFFFFF;
+  }
+  .greenWgiteBtn{
+  	width: 100%;
+  	background-color: #FFFFFF;
+  	border: 1px solid #24824D;
+  	color: #24824D;
+  	border-radius: 25px;
+  	margin-bottom: 30px;
+  	height: 45px;
+  }
+  .footer-last-line{
+  	border-top: 1px solid rgba(63, 63, 63, 0.3);
+  	padding: 13px 0;
+  	font-size: 12px;
+  	align-items: center;
+  }
+  .footer-last-line p{
+  	margin-bottom: 0;
+  }
+  footer .social-links{
+  	margin-bottom: 30px;
+  	margin-top: 30px;
+  }
+  #toTop{
+    right: -50px;
+  }
+
+
 
 }
 100
