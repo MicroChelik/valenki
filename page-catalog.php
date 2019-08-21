@@ -3,7 +3,7 @@
 ?>
 	<div aria-label="breadcrumb" class="breadcrumbNav">
 		<div class="container px-0">
-			<ol class="breadcrumb pl-0">
+			<ol class="breadcrumb">
 		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
 	    		<li class="breadcrumb-item active" aria-current="page">Каталог</li>
 		 	</ol>

@@ -3,7 +3,7 @@
 ?>
 	<div aria-label="breadcrumb" class="breadcrumbNav">
 		<div class="container px-0">
-			<ol class="breadcrumb pl-0">
+			<ol class="breadcrumb">
 		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
 	    		<li class="breadcrumb-item active" aria-current="page">Оптовикам</li>
 		 	</ol>
@@ -110,8 +110,11 @@
 			</div>
 		</div>
 	</section>
-	<section>
-		здесь карта
+	<section class="map mb-0">
+		<div id="ymap_ctrl_display" class="overmap" style="display: none; width: 100%; position: absolute; background-color: rgba(0, 0, 0, 0.5); z-index: 100; pointer-events: none;">
+		    <div style="position: relative; top: 50%; left: 0; right: 0; color: white; text-align: center; font-size: 1.8em; pointer-events: none;">Чтобы изменить масштаб, прокручивайте карту, удерживая клавишу Ctrl.</div>
+		</div>
+		<div id="myMap" style="width:auto;height:100%"></div>
 	</section>
 
 <?php

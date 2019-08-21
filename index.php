@@ -31,7 +31,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="slider-mobile-main">
+		<div class="slider-mobile-main d-block d-lg-none">
 			<div class="slider-mobile-main-img">
 				<div class="container">
 					<div class="col-12">
