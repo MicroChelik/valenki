@@ -16,24 +16,55 @@
 				<div class="col-12">
 					<h1>Подраздел каталога</h1>
 				</div>
+			</div>
+			<div class="row d-none d-lg-flex">
 				<div class="col-6 filters">
 					<p>Фильтры</p>
 					<p class="filter filter1">с подошвой</p>
 					<p class="filter filter2">без подошвы</p>
 					<select>
-						<option>1</option>
+						<option>Выбор рисунка</option>
 						<option>2</option>
 					</select>
 				</div>
 				<div class="col-6 sorting">
-					<p>Фильтры</p>
-					<p class="sort sorting1">с подошвой</p>
-					<p class="sort sorting2">без подошвы</p>
-					<p class="sort sorting3">без подошвы</p>
+					<p>Сортировать</p>
+					<p class="sort sorting1">Убывание цен</p>
+					<p class="sort sorting2">Возрастание цен</p>
+					<p class="sort sorting3">Новинка</p>
 					<p class="last-sorting"></p>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row d-flex d-lg-none filter-sort-mobile">
+				<div class="col-12 d-flex mobile-filters">
+					<div class="filters-mobile mob-filt">
+						<p>Фильтры</p>
+					</div>
+					<div class="sorting-mobile mob-filt">
+						<p>Сортировать</p>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="filters">
+						<p class="filter filter1">с подошвой</p>
+						<p class="filter filter2">без подошвы</p>
+						<hr>
+						<select>
+							<option>Выбор рисунка</option>
+							<option>2</option>
+						</select>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="sorting">
+						<p class="sort sorting1">Убывание цен</p>
+						<p class="sort sorting2">Возрастание цен</p>
+						<hr>
+						<p class="sort sorting3">Новинка</p>
+					</div>
+				</div>
+			</div>
+			<div class="row products-row">
 				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
@@ -155,7 +186,7 @@
 				</div>
 			</div>
 			<div class="row pagination-tools">
-				<div class="col-auto">
+				<div class="col-lg-auto col-12">
 					<div class="pagination">
 						<p class="first-page">1</p>
 						<div class="prev-page">

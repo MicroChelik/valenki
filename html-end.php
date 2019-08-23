@@ -27,16 +27,25 @@
 									</div>
 									<div class="card-body">
 										<form class="row">
-											<div class="col-6">
+											<div class="col-6 d-none d-lg-block">
 												<input type="text" placeholder="Имя">
 												<input type="email" placeholder="E-mail">
 												<p>
 													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
 												</p>
 											</div>
-											<div class="col-6">
+											<div class="col-6 d-none d-lg-block">
 												<input type="tel" placeholder="Номер телефона">
 												<textarea placeholder="Комментарий"></textarea>
+											</div>
+											<div class="col-12 d-block d-lg-none">
+												<input type="text" placeholder="Имя">
+												<input type="email" placeholder="E-mail">
+												<input type="tel" placeholder="Номер телефона">
+												<textarea placeholder="Комментарий"></textarea>
+												<p>
+													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
+												</p>
 											</div>
 												<input type="submit" placeholder="Отправить" class="greenBtn">
 										</form>
@@ -107,7 +116,9 @@
 						</div>
 					</div>
 					<div class="col-8">
-						<button class="greenWgiteBtn">Написать нам</button>
+						<a data-fancybox data-animation-duration="700" data-src="#writeUs" href="javascript:;">
+							<button class="greenWgiteBtn">Написать нам</button>
+						</a>
 					</div>
 					<div class="col-10 d-flex justify-content-between">
 						<p>+7 (34141) 3 84 94</p>

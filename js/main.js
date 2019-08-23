@@ -32,9 +32,6 @@ $(document).ready(function(){
 	$('.redArrow').click(function(){
 		$(this).toggleClass('redOpen');
 		$(this).parent().parent().toggleClass('liOpen');
-		var a = $(this).parent().parent();
-		console.log(a);
-		// console.log('sss');
 		$(this).parent().next().slideToggle('200');
 	});
 
@@ -61,7 +58,27 @@ $(document).ready(function(){
 		$('.delivery-way').removeClass('selected');
 		$(this).addClass('selected');
 	});
-	
+	$('.filter').click(function(){
+		$('.filters .active').removeClass('active');
+		$(this).addClass('active');
+	});
+	$('.sort').click(function(){
+		$('.sorting .active').removeClass('active');
+		$(this).addClass('active');
+	}); 
+
+	$('.filter-sort-mobile .filters-mobile').click(function(){
+		$('.sorting-mobile').removeClass('open');
+		$(this).toggleClass('open');
+		$('.filter-sort-mobile .sorting').removeClass('open');
+		$('.filter-sort-mobile .filters').toggleClass('open');
+	});
+	$('.filter-sort-mobile .sorting-mobile').click(function(){
+		$('.filters-mobile').removeClass('open');
+		$(this).toggleClass('open');
+		$('.filter-sort-mobile .filters').removeClass('open');
+		$('.filter-sort-mobile .sorting').toggleClass('open');
+	});
 	
 
 	$('.slider-main').slick({
@@ -96,6 +113,15 @@ $(document).ready(function(){
 		dots: true,
 		swipeToSlide: true,
 		dotsClass: "my-dots",
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			}
+		]
 	});
 	$('.slider-partners').slick({
 		infinite: false,
@@ -105,6 +131,15 @@ $(document).ready(function(){
 		dots: true,
 		swipeToSlide: true,
 		dotsClass: "my-dots",
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			}
+		]
 	});
 	$('.slider-product').slick({
 		infinite: false,
@@ -114,6 +149,14 @@ $(document).ready(function(){
 		prevArrow: '.slider-for-product-prev',
 		nextArrow: '.slider-for-product-next',
 		asNavFor: '.slider-for-product',
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					arrows: false,
+				}
+			}
+		]
 	});
 	$('.slider-for-product').slick({
 		infinite: false,
@@ -124,6 +167,14 @@ $(document).ready(function(){
 		prevArrow: '.slider-for-product-prev',
 		nextArrow: '.slider-for-product-next',
 		asNavFor: '.slider-product',
+		responsive: [
+			{
+				breakpoint: 960,
+				settings: {
+					arrows: false,
+				}
+			}
+		]
 	});
 
 	$('.img-rounded').slick({
@@ -190,6 +241,27 @@ $(document).ready(function(){
 			}
 		]
 	});
+	$('.slider-sertificates').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: false,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 6000,
+				settings: "unslick",
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			}
+		]
+	});
 
 
 
@@ -216,6 +288,11 @@ $(document).ready(function(){
 	        controls: ['largeMapDefaultSet'],
 	        zoom: 8
     	});
+    	var myMapModal = new ymaps.Map('myMapModal', {
+	        center: [56.87187756682612, 53.29298687301625],
+	        controls: ['largeMapDefaultSet'],
+	        zoom: 8
+    	});
 
         for (var i = 0; i < placemarks.length; i++) {
 			geoObjects[i] = new ymaps.Placemark([placemarks[i].lat, placemarks[i].long], {
@@ -231,50 +308,65 @@ $(document).ready(function(){
 		var clusterer = new ymaps.Clusterer({ preset: 'islands#icon' });
 		myMap.geoObjects.add(clusterer);
 
+
 		//myMap.geoObjects.add(myPlacemark);
 		clusterer.add(geoObjects);
 
 		myMap.behaviors.disable('scrollZoom');
 
-var ctrlKey = false;
-var ctrlMessVisible = false;
-var timer;
+		var ctrlKey = false;
+		var ctrlMessVisible = false;
+		var timer;
 
-// Отслеживаем скролл мыши на карте, чтобы показывать уведомление
-myMap.events.add(['wheel', 'mousedown'], function(e) {
-    if (e.get('type') == 'wheel') {
-        if (!ctrlKey) { // Ctrl не нажат, показываем уведомление
-            $('#ymap_ctrl_display').fadeIn(300);
-            ctrlMessVisible = true;
-            clearTimeout(timer); // Очищаем таймер, чтобы продолжать показывать уведомление
-            timer = setTimeout(function() {
-                $('#ymap_ctrl_display').fadeOut(300);
-                ctrlMessVisible = false;
-            }, 1500);
-        }
-        else { // Ctrl нажат, скрываем сообщение
-            $('#ymap_ctrl_display').fadeOut(100);
-        }
-    }
-    if (e.get('type') == 'mousedown' && ctrlMessVisible) { // Скрываем уведомление при клике на карте
-        $('#ymap_ctrl_display').fadeOut(100);
-    }
-});
+		// Отслеживаем скролл мыши на карте, чтобы показывать уведомление
+		myMap.events.add(['wheel', 'mousedown'], function(e) {
+		    if (e.get('type') == 'wheel') {
+		        if (!ctrlKey) { // Ctrl не нажат, показываем уведомление
+		            $('#ymap_ctrl_display').fadeIn(300);
+		            ctrlMessVisible = true;
+		            clearTimeout(timer); // Очищаем таймер, чтобы продолжать показывать уведомление
+		            timer = setTimeout(function() {
+		                $('#ymap_ctrl_display').fadeOut(300);
+		                ctrlMessVisible = false;
+		            }, 1500);
+		        }
+		        else { // Ctrl нажат, скрываем сообщение
+		            $('#ymap_ctrl_display').fadeOut(100);
+		        }
+		    }
+		    if (e.get('type') == 'mousedown' && ctrlMessVisible) { // Скрываем уведомление при клике на карте
+		        $('#ymap_ctrl_display').fadeOut(100);
+		    }
+		});
 
-// Обрабатываем нажатие на Ctrl
-$(document).keydown(function(e) {
-    if (e.which === 17 && !ctrlKey) { // Ctrl нажат: включаем масштабирование мышью
-        ctrlKey = true;
-        myMap.behaviors.enable('scrollZoom');
-    }
-});
-$(document).keyup(function(e) { // Ctrl не нажат: выключаем масштабирование мышью
-    if (e.which === 17) {
-        ctrlKey = false;
-        myMap.behaviors.disable('scrollZoom');
-    }
-});
-        
-    };
+		// Обрабатываем нажатие на Ctrl
+		$(document).keydown(function(e) {
+		    if (e.which === 17 && !ctrlKey) { // Ctrl нажат: включаем масштабирование мышью
+		        ctrlKey = true;
+		        myMap.behaviors.enable('scrollZoom');
+		    }
+		});
+		$(document).keyup(function(e) { // Ctrl не нажат: выключаем масштабирование мышью
+		    if (e.which === 17) {
+		        ctrlKey = false;
+		        myMap.behaviors.disable('scrollZoom');
+		    }
+		});
+		        
+	};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });

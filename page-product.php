@@ -17,23 +17,31 @@
 				<div class="col-lg-5 col-12">
 					<div class="slider-product">
 						<div class="product-card">
-							<img src="img/product-img.png" class="product-img">
-							<p class="product-new">
-								н<br>о<br>в<br>и<br>н<br>к<br>а
-							</p>
+							<a href="img/product-img.png" data-fancybox="images">
+								<img src="img/product-img.png" class="product-img">
+								<p class="product-new">
+									н<br>о<br>в<br>и<br>н<br>к<br>а
+								</p>
+							</a>
+							</div>
+						<div class="product-card">
+							<a href="img/product-img.png" data-fancybox="images">
+								<img src="img/product-img.png" class="product-img">
+								<p class="product-sale"><img src="img/icons/percent.svg"></p>
+							</a>
 						</div>
 						<div class="product-card">
-							<img src="img/product-img.png" class="product-img">
-							<p class="product-sale"><img src="img/icons/percent.svg"></p>
+							<a href="img/product-img.png" data-fancybox="images">
+								<img src="img/product-img.png" class="product-img">
+							</a>
 						</div>
 						<div class="product-card">
-							<img src="img/product-img.png" class="product-img">
-						</div>
-						<div class="product-card">
-							<img src="img/product-img.png" class="product-img">
+							<a href="img/product-img.png" data-fancybox="images">
+								<img src="img/product-img.png" class="product-img">
+							</a>
 						</div>
 					</div>
-					<div class="slider-for-product">
+					<div class="slider-for-product d-none d-lg-block">
 						<div>
 							<div class="slider-for-product-img">
 								<img src="img/product-img.png" class="product-img">
@@ -55,7 +63,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="row justify-content-between slider-for-product-arrows arrows d-flex">
+					<div class="row justify-content-between slider-for-product-arrows arrows d-lg-flex d-none">
 						<div class="col-auto">
 							<img src="img/icons/arrow-left.svg" class="slider-for-product-prev" alt="назад">
 						</div>
@@ -263,7 +271,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-lg-5 col-12 offset-lg-1 offset-0">
-					<form class="my-form-group">
+					<form class="my-form-group d-lg-block d-none">
 						<h2>Задать вопрос</h2>
 						<div class="row justify-content-center">
 							<div class="col-6">
@@ -277,9 +285,28 @@
 								</div>
 								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 							</div>
-							<div class="form-group col-6">
+							<div class="col-6">
 								<input type="email" class="" placeholder="E-mail (по желанию)">
 								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+								<input type="submit" class="greenBtn">
+							</div>
+						</div>
+					</form>
+					<form class="my-form-group d-block d-lg-none">
+						<h2>Задать вопрос</h2>
+						<div class="row justify-content-center">
+							<div class="col-12">
+								<input type="text" class="" placeholder="Имя">
+								<input type="tel" class="" placeholder="Номер телефона">
+								<input type="email" class="" placeholder="E-mail (по желанию)">
+								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+								<div class="d-flex align-items-center div-inputfile">
+									<img src="img/icons/attachment.png" class="mr-2">
+									<input type="file" class="inputfile" id="file">
+									<label for="file" class="mb-0 mr-3">Прикрепить файл:</label>
+									<p class="user-file">+ File1.jpg</p>
+								</div>
+								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 								<input type="submit" class="greenBtn">
 							</div>
 						</div>

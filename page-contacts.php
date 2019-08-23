@@ -173,11 +173,11 @@
 	<section class="ask-us">
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-5 offset-1">
+				<div class="col-lg-5 col-12 offset-lg-1 offset-0">
 					<form class="my-form-group">
 						<h2>Написать нам</h2>
 						<div class="row justify-content-center">
-							<div class="col-6">
+							<div class="col-lg-6 col-12">
 								<input type="text" class="" placeholder="Имя">
 								<input type="tel" class="" placeholder="Номер телефона">
 								<div class="d-flex align-items-center div-inputfile">
@@ -188,7 +188,7 @@
 								</div>
 								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 							</div>
-							<div class="form-group col-6">
+							<div class="form-group col-lg-6 col-12">
 								<input type="email" class="" placeholder="E-mail (по желанию)">
 								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
 								<input type="submit" class="greenBtn">

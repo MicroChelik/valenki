@@ -20,9 +20,48 @@
 						<div class="rounded-card-img reviews-img1">
 						</div>
 						<div class="rounded-card-description">
-							<p class="rounded-card-title">Название новости</p>
+							<p class="rounded-card-title">Имя</p>
 							<p class="rounded-card-date">02.02.2019</p>
-							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a href="">Читать далее</a></p>
+							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a  data-fancybox data-animation-duration="700" data-src="#review" href="javascript:;">Читать далее</a></p>
+								<div style="display: none;" id="review" class="animated-modal">
+									<div class="card">
+										<div class="card-header">
+											<h1>Отзыв</h1>
+										</div>
+										<div class="card-body row">
+											<div class="col-lg-6 col-12">
+												<div class="imgw100">
+													<img src="img/reviews/1.png">
+												</div>
+											</div>
+											<div class="col-lg-6 col-12">
+												<p class="rounded-card-title">Екатерина</p>
+												<p class="rounded-card-date">02.02.2019</p>
+												<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет.</p>
+											</div>
+											<div class="col-12">
+												<p>
+													С другой стороны, существующая теория предоставляет широкие возможности для благоприятных перспектив. Но сложившаяся структура организации требует определения и уточнения своевременного выполнения сверхзадачи. 
+												</p>
+												<p class="mb-0">
+													Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта: понимание сути ресурсосберегающих технологий, в своем классическом представлении, допускает внедрение системы обучения кадров, соответствующей насущным потребностям.
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-6 col-12">
+					<div class="rounded-card">
+						<div class="rounded-card-img reviews-img2">
+						</div>
+						<div class="rounded-card-description">
+							<p class="rounded-card-title">Имя</p>
+							<p class="rounded-card-date">02.02.2019</p>
+							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a  data-fancybox data-animation-duration="700" data-src="#review" href="javascript:;">Читать далее</a></p>
 						</div>
 					</div>
 				</div>
@@ -31,20 +70,9 @@
 						<div class="rounded-card-img reviews-img2">
 						</div>
 						<div class="rounded-card-description">
-							<p class="rounded-card-title">Название новости</p>
+							<p class="rounded-card-title">Имя</p>
 							<p class="rounded-card-date">02.02.2019</p>
-							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a href="">Читать далее</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-12">
-					<div class="rounded-card">
-						<div class="rounded-card-img reviews-img2">
-						</div>
-						<div class="rounded-card-description">
-							<p class="rounded-card-title">Название новости</p>
-							<p class="rounded-card-date">02.02.2019</p>
-							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a href="">Читать далее</a></p>
+							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a  data-fancybox data-animation-duration="700" data-src="#review" href="javascript:;">Читать далее</a></p>
 						</div>
 					</div>
 				</div>
@@ -53,9 +81,9 @@
 						<div class="rounded-card-img reviews-img1">
 						</div>
 						<div class="rounded-card-description">
-							<p class="rounded-card-title">Название новости</p>
+							<p class="rounded-card-title">Имя</p>
 							<p class="rounded-card-date">02.02.2019</p>
-							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a href="">Читать далее</a></p>
+							<p class="rounded-card-text">В своем стремлении повысить качество жизни, они забывают, что внедрение современных методик позволяет... <a  data-fancybox data-animation-duration="700" data-src="#review" href="javascript:;">Читать далее</a></p>
 						</div>
 					</div>
 				</div>
@@ -94,7 +122,7 @@
 	<section class="ask-us">
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-5 offset-1">
+				<div class="col-lg-5 col-12 offset-lg-1 offset-0">
 					<form class="my-form-group">
 						<h2>Оставить отзыв</h2>
 						<div class="row justify-content-center">

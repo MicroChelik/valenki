@@ -12,13 +12,13 @@
 	<section>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-5 video">
+				<div class="col-lg-5 col-12 video">
 					<video controls>
 						<source src="video/test.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
 				</div>
-				<div class="col-5 about-company-text">
+				<div class="col-lg-5 col-12 about-company-text">
 					<div>
 						<h2>О компании</h2>
 						<p>
@@ -38,7 +38,7 @@
 	<section>
 		<div class="container">
 			<div class="row cards justify-content-around">
-				<div class="col-auto">
+				<div class="col-lg-auto col-12">
 					<div class="card-number">
 						<p class="border-white border-white-left"></p>
 						<p class="border-number">10</p>
@@ -49,7 +49,7 @@
 						<p>Не следует, однако, забывать, что сплоченность команды профессионалов влечет за собой процесс.</p>
 					</div>
 				</div>
-				<div class="col-auto">
+				<div class="col-lg-auto col-12">
 					<div class="card-number">
 						<p class="border-white border-white-left"></p>
 						<p class="border-number">20</p>
@@ -60,7 +60,7 @@
 						<p>Не следует, однако, забывать, что сплоченность команды профессионалов влечет за собой процесс.</p>
 					</div>
 				</div>
-				<div class="col-auto">
+				<div class="col-lg-auto col-12">
 					<div class="card-number">
 						<p class="border-white border-white-left"></p>
 						<p class="border-number">30</p>
@@ -80,7 +80,7 @@
 				<div class="col-12">
 					<h2>Наше производство</h2>
 				</div>
-				<div class="col-5 production-advantages">
+				<div class="col-lg-5 col-12 production-advantages">
 					<div class="production-advantages-img">
 						<img src="img/icons/prodadv1.png">
 					</div>
@@ -106,7 +106,7 @@
 						<p>Без использования химии</p>
 					</div>
 				</div>
-				<div class="col-6 offset-1">
+				<div class="col-lg-6 col-12 offset-lg-1 offset-0">
 					<div class="slider-production">
 						<div>
 							<img src="img/production1.png">
@@ -143,10 +143,13 @@
 	</section>
 	<section class="sertificates">
 		<div class="container">
-			<div class="row justify-content-around">
+			<div class="row">
 				<div class="col-12">
 					<h2>Наши сертификаты</h2>
 				</div>
+				
+			</div>
+			<div class="slider-sertificates">
 				<div><img src="img/sertificate1.png"></div>
 				<div><img src="img/sertificate2.png"></div>
 				<div><img src="img/sertificate3.png"></div>

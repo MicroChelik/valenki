@@ -28,7 +28,7 @@
 									</div>
 									<div class="card-body">
 										<div class="topMap">
-											<div id="myMap" style="width:auto;height:100%"></div>
+											<div id="myMapModal" style="width:auto;height:100%"></div>
 										</div>
 									</div>
 								</div>
@@ -45,9 +45,9 @@
 						<div>
 							<p>Salex73@ya.ru</p>
 						</div>
-						<div class="blueBtnDiv">
+						<div class="blueBtnDiv greenTranspBtnDiv">
 							<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
-								<button class="blueBtn">ЗАКАЗАТЬ ЗВОНОК</button>
+								<button class="blueBtn greenTranspBtn">ЗАКАЗАТЬ ЗВОНОК</button>
 							</a>
 								<div style="display: none;" id="orderCall" class="animated-modal">
 									<div class="card">
@@ -61,17 +61,17 @@
 												<p>
 													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
 												</p>
-												<a data-fancybox data-animation-duration="700" data-src="#Thanks" href="javascript:;">
+												<a data-fancybox data-animation-duration="700" data-src="#thanks" href="javascript:;">
 													<input type="submit" placeholder="Заказать" class="greenBtn">
 												</a>
 											</form>
 										</div>
 									</div>
 								</div>
-								<div style="display: none;" id="Thanks" class="animated-modal">
+								<div style="display: none;" id="thanks" class="animated-modal">
 									<div class="card">
 										<div class="card-header">
-											<h1>Заказать звонок</h1>
+											<h1>Спасибо</h1>
 										</div>
 										<div class="card-body">
 											<p>
@@ -108,7 +108,7 @@
 						<ul class="topmenu">
 							<li><a href="">Главная</a></li>
 							<li><a href="">О компании</a></li>
-							<li><a href="" class="submenu-link">Каталог</a>
+							<li><div class="li-div"><a href="" class="submenu-link">Каталог</a><div class="redArrow"></div></div>
 								<ul class="submenu">
 									<li><a href="">Женские валенки</a></li>
 									<li><a href="">Мужские валенки</a></li>
@@ -117,8 +117,8 @@
 							</li>
 							<li><a href="">Оптовикам</a></li>
 							<li><a href="">Новости и акции</a></li>
-							<li><a href="">Для клиента </a>
-								<ul class="submenu" class="submenu-link">
+							<li><div class="li-div"><a href="" class="submenu-link">Для клиента </a><div class="redArrow"></div></div>
+								<ul class="submenu">
 									<li><a href="">Женские валенки</a></li>
 									<li><a href="">Мужские валенки</a></li>
 									<li><a href="">Детские валенки</a></li>
@@ -143,27 +143,45 @@
 				</div>
 				<div class="men">
 					<ul class="topmenu">
-							<li><a href="">Главная</a></li>
-							<li><a href="">О компании</a></li>
-							<li><a href="" class="submenu-link">Каталог</a> <div class="redArrow"></div>
-								<ul class="submenu">
-									<li><a href="">Женские валенки</a></li>
-									<li><a href="">Мужские валенки</a></li>
-									<li><a href="">Детские валенки</a></li>
-								</ul>
-							</li>
-							<li><a href="">Оптовикам</a></li>
-							<li><a href="">Новости и акции</a></li>
-							<li><a href="">Для клиента </a> <div class="redArrow"></div>
-								<ul class="submenu" class="submenu-link">
-									<li><a href="">Женские валенки</a></li>
-									<li><a href="">Мужские валенки</a></li>
-									<li><a href="">Детские валенки</a></li>
-								</ul>
-							</li>
-							<li><a href="">Отзывы</a></li>
-							<li><a href="">Контакты</a></li>
-						</ul>
+						<li><a href="">Главная</a></li>
+						<li><a href="">О компании</a></li>
+						<li><div class="li-div"><a href="" class="submenu-link">Каталог</a> <div class="redArrow"></div></div>
+							<ul class="submenu ssaaas">
+								<li><a href="">Женские валенки</a></li>
+								<li><a href="">Мужские валенки</a></li>
+								<li><a href="">Детские валенки</a></li>
+							</ul>
+						</li>
+						<li><a href="">Оптовикам</a></li>
+						<li><a href="">Новости и акции</a></li>
+						<li> <div class="li-div"> <a href="" class="submenu-link">Для клиента </a> <div class="redArrow"></div></div>
+							<ul class="submenu">
+								<li><a href="">Женские валенки</a></li>
+								<li><a href="">Мужские валенки</a></li>
+								<li><a href="">Детские валенки</a></li>
+							</ul>
+						</li>
+						<li><a href="">Отзывы</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+					<div class="prelast-mobile-line">
+						<div class="col-6">
+							<p>+7 (34141) 3 84 94 <br> +7 (919) 910 64 83</p>
+						</div>
+						<div class="col-6">
+							<p>Salex73@ya.ru</p>
+							<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+								<div class="blueBtnDiv greenTranspBtnDiv">
+									<button class="blueBtn greenTranspBtn">ЗАКАЗАТЬ ЗВОНОК</button>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-12 last-mobile-line">
+						<img src="img/icons/placemarkMob.svg">
+						<img src="img/icons/call-answer.svg">
+						<img src="img/icons/basketMob.svg">
+					</div>
 				</div>
 				<div class="col-auto">
 					<img src="img/logo-mobile.png">
