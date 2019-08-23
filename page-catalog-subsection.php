@@ -34,7 +34,7 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
@@ -44,7 +44,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
@@ -52,43 +52,14 @@
 						<p class="product-sale"><img src="img/icons/percent.svg"></p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
 					</div>
 				</div>
-				<div class="col-3">
-					<div class="product-card">
-						<img src="img/product-img.png" class="product-img">
-						<p>Заголовок в одну строчку</p>
-						<p>1 800 ₽</p>
-					</div>
-				</div>
-
-				<div class="col-3">
-					<div class="product-card">
-						<img src="img/product-img.png" class="product-img">
-						<p>Заголовок в одну строчку</p>
-						<p>1 800 ₽</p>
-					</div>
-				</div>
-				<div class="col-3">
-					<div class="product-card">
-						<img src="img/product-img.png" class="product-img">
-						<p>Заголовок в одну строчку</p>
-						<p>1 800 ₽</p>
-					</div>
-				</div>
-				<div class="col-3">
-					<div class="product-card">
-						<img src="img/product-img.png" class="product-img">
-						<p>Заголовок в одну строчку</p>
-						<p>1 800 ₽</p>
-					</div>
-				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
@@ -96,28 +67,28 @@
 					</div>
 				</div>
 
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
@@ -125,28 +96,57 @@
 					</div>
 				</div>
 
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>
 						<p>1 800 ₽</p>
 					</div>
 				</div>
-				<div class="col-3">
+				<div class="col-lg-3 col-12">
+					<div class="product-card">
+						<img src="img/product-img.png" class="product-img">
+						<p>Заголовок в одну строчку</p>
+						<p>1 800 ₽</p>
+					</div>
+				</div>
+
+				<div class="col-lg-3 col-12">
+					<div class="product-card">
+						<img src="img/product-img.png" class="product-img">
+						<p>Заголовок в одну строчку</p>
+						<p>1 800 ₽</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="product-card">
+						<img src="img/product-img.png" class="product-img">
+						<p>Заголовок в одну строчку</p>
+						<p>1 800 ₽</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
+					<div class="product-card">
+						<img src="img/product-img.png" class="product-img">
+						<p>Заголовок в одну строчку</p>
+						<p>1 800 ₽</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-12">
 					<div class="product-card">
 						<img src="img/product-img.png" class="product-img">
 						<p>Заголовок в одну строчку</p>

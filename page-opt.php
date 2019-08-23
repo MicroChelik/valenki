@@ -39,7 +39,7 @@
 	<section class="ask-us">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-5 offset-1">
+				<div class="col-lg-5 col-12 offset-lg-1 offset-0">
 					<form class="my-form-group">
 						<h2>Хотим получить коммерческое предложение</h2>
 						<div class="row justify-content-center">

@@ -24,7 +24,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img1">
 					</div>
@@ -35,7 +35,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img2">
 					</div>
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img2">
 					</div>
@@ -57,7 +57,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img1">
 					</div>
@@ -68,7 +68,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img1">
 					</div>
@@ -79,7 +79,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img2">
 					</div>
@@ -90,7 +90,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img2">
 					</div>
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img1">
 					</div>
@@ -112,7 +112,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img1">
 					</div>
@@ -123,7 +123,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img2">
 					</div>
@@ -134,7 +134,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img2">
 					</div>
@@ -145,7 +145,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6">
+			<div class="col-lg-6 col-12">
 				<div class="rounded-card">
 					<div class="rounded-card-img newses-img1">
 					</div>

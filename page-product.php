@@ -14,7 +14,7 @@
 	<section class="product-details">
 		<div class="container">
 			<div class="row justify-content-between">
-				<div class="col-5">
+				<div class="col-lg-5 col-12">
 					<div class="slider-product">
 						<div class="product-card">
 							<img src="img/product-img.png" class="product-img">
@@ -64,7 +64,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 col-12">
 					<h1>Название товара<br>в две строчки</h1>
 					<button class="redBtn">Вернуться к каталогу</button>
 					<div class="d-flex mb-2 text-uppercase">
@@ -78,7 +78,70 @@
 							<div class="color-grey"></div>
 							<div class="color-black"></div>
 						</div>
-						<button class="greyBtn">ТАБЛИЦА РАЗМЕРОВ</button>
+						<a data-fancybox data-animation-duration="700" data-src="#tableSize" href="javascript:;">
+							<button class="greyBtn">ТАБЛИЦА РАЗМЕРОВ</button>
+						</a>
+							<div style="display: none;" id="tableSize" class="animated-modal">
+								<div class="card">
+									<div class="card-header">
+										<h1>Размеры</h1>
+									</div>
+									<div class="card-body">
+										<table>
+											<tr>
+												<th>Сантиметры</th>
+												<th>ГОСТ</th>
+												<th>Высота валенка</th>
+											</tr>
+											<tr>
+												<td>14</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>15</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>16</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>14</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>15</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>16</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>14</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>15</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+											<tr>
+												<td>16</td>
+												<td>22,5</td>
+												<td>24,0</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+							</div>
 					</div>
 					<div class="d-flex mb-4">
 						<select class="select-white mr-4">
@@ -123,7 +186,7 @@
 			<div class="col-12">
 				<h2>Сопутствующие товары</h2>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
@@ -133,7 +196,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
@@ -141,14 +204,14 @@
 					<p class="product-sale"><img src="img/icons/percent.svg"></p>
 				</div>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
 					<p>1 800 ₽</p>
 				</div>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
@@ -162,7 +225,7 @@
 			<div class="col-12">
 				<h2>Просмотренные товары</h2>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
@@ -172,7 +235,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
@@ -180,14 +243,14 @@
 					<p class="product-sale"><img src="img/icons/percent.svg"></p>
 				</div>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
 					<p>1 800 ₽</p>
 				</div>
 			</div>
-			<div class="col-3">
+			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
 					<p>Заголовок в одну строчку</p>
@@ -199,7 +262,7 @@
 	<section class="ask-us">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-5 offset-1">
+				<div class="col-lg-5 col-12 offset-lg-1 offset-0">
 					<form class="my-form-group">
 						<h2>Задать вопрос</h2>
 						<div class="row justify-content-center">
@@ -222,7 +285,7 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-6 ask-us-img pr-0">
+				<div class="col-6 d-none d-lg-flex ask-us-img pr-0">
 					<img src="img/bg2.png">
 				</div>
 			</div>

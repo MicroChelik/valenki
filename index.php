@@ -143,7 +143,7 @@
 					<form>
 						<input type="text" placeholder="Имя">
 						<input type="email" placeholder="E-mail">
-						<input type="submit" placeholder="Подписаться" class="yellowBtn">
+						<input type="submit" placeholder="Подписаться" class="greenBtn">
 					</form>
 				</div>
 			</div>
@@ -156,7 +156,7 @@
 					<h2>Наша продукция</h2>
 				</div>
 			</div>
-			<div class="row justify-content-end">
+			<div class="row all-photos-row">
 				<div class="col-auto">
 					<button class="all-photos">Смотреть все фото</button>
 				</div>
@@ -195,17 +195,22 @@
 				<form class="my-form-group">
 					<h2>Поможем с выбором и ответим на Ваши вопросы!</h2>
 					<div class="row justify-content-center">
-						<div class="col-6">
+						<div class="col-lg-6 col-12 order-1">
 							<input type="text" class="" placeholder="Имя">
-							<textarea class="" rows="3" placeholder="Комментарий"></textarea>
 						</div>
-						<div class="form-group col-6">
+						<div class="col-lg-6 col-12 order-2">
 							<input type="email" class="" placeholder="E-mail (по желанию)">
-							<input type="text" class="" placeholder="Номер телефона">
-							<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 						</div>
-						<div class="form-group col-4">
-							<input type="submit" class="yellowBtn ">
+						<div class="col-lg-6 col-12 order-4 order-lg-3">
+							<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+							<p class="d-block d-lg-none">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
+						</div>
+						<div class="col-lg-6 col-12 order-3 order-lg-4">
+							<input type="text" class="" placeholder="Номер телефона">
+							<p class="d-none d-lg-block">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
+						</div>
+						<div class="col-lg-4 col-8 order-5">
+							<input type="submit" class="greenBtn">
 						</div>
 					</div>
 				</form>

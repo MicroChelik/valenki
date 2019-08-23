@@ -31,7 +31,11 @@ $(document).ready(function(){
 	});
 	$('.redArrow').click(function(){
 		$(this).toggleClass('redOpen');
-		$(this).next('.submenu').slideToggle('200');
+		$(this).parent().parent().toggleClass('liOpen');
+		var a = $(this).parent().parent();
+		console.log(a);
+		// console.log('sss');
+		$(this).parent().next().slideToggle('200');
 	});
 
 	$(function() {
@@ -46,6 +50,7 @@ $(document).ready(function(){
 			$('body,html').animate({scrollTop:0},300);
 		});
 	});
+
 	$('.delete-basket-product').click(function(){
 		$(this).parent().parent().hide();
 	});

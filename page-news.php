@@ -12,14 +12,17 @@
 	</div>
 	<section class="container about-news padding-bottom">
 		<div class="row align-items-center">
-			<div class="col-5">
+			<div class="col-12 d-block d-lg-none">
+				<h1>Название новости</h1>
+			</div>
+			<div class="col-lg-5 col-12">
 				<div class="news-img imgw100">
 					<img src="img/news/3.png">
 				</div>
 			</div>
-			<div class="col-6">
-				<button class="redBtn">Вернуться к каталогу</button>
-				<h1 class="mb-0">Название новости</h1>
+			<div class="col-lg-6 col-12">
+				<button class="redBtn d-none d-lg-block">Вернуться к каталогу</button>
+				<h1 class="mb-0  d-none d-lg-block">Название новости</h1>
 				<p class="news-big-date">02.02.2019</p>
 				<p>Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний будут объявлены нарушающими общечеловеческие нормы этики и морали.</p>
 				<p>

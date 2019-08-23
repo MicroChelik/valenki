@@ -18,7 +18,21 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-2 d-flex align-items-center">
-						<img src="img/icons/placemark.png" alt="" class="placemarkImg">
+						<a data-fancybox data-animation-duration="700" data-src="#topMap" href="javascript:;">
+							<img src="img/icons/placemark.png" alt="" class="placemarkImg">
+						</a>
+							<div style="display: none;" id="topMap" class="animated-modal">
+								<div class="card">
+									<div class="card-header">
+										<h1>Карта</h1>
+									</div>
+									<div class="card-body">
+										<div class="topMap">
+											<div id="myMap" style="width:auto;height:100%"></div>
+										</div>
+									</div>
+								</div>
+							</div>
 						<p>Удмуртия, г. Глазов, ул. Глинки 2</p>
 					</div>
 					<div class="col-lg-4 offset-lg-1">
@@ -32,7 +46,41 @@
 							<p>Salex73@ya.ru</p>
 						</div>
 						<div class="blueBtnDiv">
-							<button class="blueBtn">ЗАКАЗАТЬ ЗВОНОК</button>
+							<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
+								<button class="blueBtn">ЗАКАЗАТЬ ЗВОНОК</button>
+							</a>
+								<div style="display: none;" id="orderCall" class="animated-modal">
+									<div class="card">
+										<div class="card-header">
+											<h1>Заказать звонок</h1>
+										</div>
+										<div class="card-body">
+											<form>
+												<input type="text" placeholder="Имя">
+												<input type="tel" placeholder="Номер телефона">
+												<p>
+													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
+												</p>
+												<a data-fancybox data-animation-duration="700" data-src="#Thanks" href="javascript:;">
+													<input type="submit" placeholder="Заказать" class="greenBtn">
+												</a>
+											</form>
+										</div>
+									</div>
+								</div>
+								<div style="display: none;" id="Thanks" class="animated-modal">
+									<div class="card">
+										<div class="card-header">
+											<h1>Заказать звонок</h1>
+										</div>
+										<div class="card-body">
+											<p>
+												Ваша заявка успешно принята.
+											</p>
+											<button class="greenBtn" data-fancybox-close>Закрыть</button>
+										</div>
+									</div>
+								</div>
 						</div>
 						<div>
 							<p>+7 (34141) 3 84 94</p>

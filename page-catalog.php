@@ -17,48 +17,48 @@
 				</div>
 			</div>
 			<div class="row catalog-images">
-				<div class="col-4">
-					<div class="catalog-img1">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img1">
 						<p>Женские валенки</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img1">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img1">
 						<p>Мужские валенки</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img1">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img1">
 						<p>Детские валенки</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img2">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img2">
 						<p>Женские тапочки</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img2">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img2">
 						<p>Мужские тапочки</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img2">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img2">
 						<p>Детские тапочки</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img3">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img3">
 						<p>Чуни</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img4">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img4">
 						<p>Стельки</p>
 					</div>
 				</div>
-				<div class="col-4">
-					<div class="catalog-img3">
+				<div class="col-lg-4 col-12">
+					<div class="catalog-img catalog-img3">
 						<p>Калоши</p>
 					</div> 	
 				</div>	

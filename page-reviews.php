@@ -15,7 +15,7 @@
 				<div class="col-12">
 					<h1>Отзывы</h1>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 col-12">
 					<div class="rounded-card">
 						<div class="rounded-card-img reviews-img1">
 						</div>
@@ -26,7 +26,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 col-12">
 					<div class="rounded-card">
 						<div class="rounded-card-img reviews-img2">
 						</div>
@@ -37,7 +37,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 col-12">
 					<div class="rounded-card">
 						<div class="rounded-card-img reviews-img2">
 						</div>
@@ -48,7 +48,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-6">
+				<div class="col-lg-6 col-12">
 					<div class="rounded-card">
 						<div class="rounded-card-img reviews-img1">
 						</div>
@@ -98,7 +98,7 @@
 					<form class="my-form-group">
 						<h2>Оставить отзыв</h2>
 						<div class="row justify-content-center">
-							<div class="col-6">
+							<div class="col-lg-6 col-12">
 								<input type="text" class="" placeholder="Имя">
 								<input type="tel" class="" placeholder="Номер телефона">
 								<div class="d-flex align-items-center div-inputfile">
@@ -109,7 +109,7 @@
 								</div>
 								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 							</div>
-							<div class="form-group col-6">
+							<div class="form-group col-lg-6 col-12">
 								<input type="email" class="" placeholder="E-mail (по желанию)">
 								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
 								<input type="submit" class="greenBtn">
@@ -117,7 +117,7 @@
 						</div>
 					</form>
 				</div>
-				<div class="col-6 ask-us-img pr-0">
+				<div class="col-lg-6 col-12 ask-us-img pr-0">
 					<img src="img/bg2.png">
 				</div>
 			</div>

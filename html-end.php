@@ -17,7 +17,32 @@
 								<img src="img/icons/social4.png">
 							</a>
 						</div>
-						<button class="footerBtn">Написать нам</button>
+						<a data-fancybox data-animation-duration="700" data-src="#writeUs" href="javascript:;">
+							<button class="footerBtn">Написать нам</button>
+						</a>
+							<div style="display: none;" id="writeUs" class="animated-modal">
+								<div class="card">
+									<div class="card-header">
+										<h1>Написать нам</h1>
+									</div>
+									<div class="card-body">
+										<form class="row">
+											<div class="col-6">
+												<input type="text" placeholder="Имя">
+												<input type="email" placeholder="E-mail">
+												<p>
+													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
+												</p>
+											</div>
+											<div class="col-6">
+												<input type="tel" placeholder="Номер телефона">
+												<textarea placeholder="Комментарий"></textarea>
+											</div>
+												<input type="submit" placeholder="Отправить" class="greenBtn">
+										</form>
+									</div>
+								</div>
+							</div>
 					</div>
 					<div class="col-1 offset-1">
 						<ul>
