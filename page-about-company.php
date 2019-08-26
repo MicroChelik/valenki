@@ -127,17 +127,13 @@
 				</div>
 			</div>
 			<div class="row m-0 slider-letters">
-				<div><img src="img/letter1.png"></div>
-				<div><img src="img/letter2.png"></div>
-				<div><img src="img/letter3.png"></div>
-				<div><img src="img/letter4.png"></div>
-				<div><img src="img/letter5.png"></div>
+				<div class="slide-letter"><img src="img/letter1.png"></div>
+				<div class="slide-letter"><img src="img/letter2.png"></div>
+				<div class="slide-letter"><img src="img/letter3.png"></div>
+				<div class="slide-letter"><img src="img/letter4.png"></div>
+				<div class="slide-letter"><img src="img/letter5.png"></div>
 
-				<div><img src="img/letter1.png"></div>
-				<div><img src="img/letter2.png"></div>
-				<div><img src="img/letter3.png"></div>
-				<div><img src="img/letter4.png"></div>
-				<div><img src="img/letter5.png"></div>
+				<div class="slide-letter"><img src="img/letter1.png"></div>
 			</div>
 		</div>
 	</section>
@@ -150,10 +146,10 @@
 				
 			</div>
 			<div class="slider-sertificates">
-				<div><img src="img/sertificate1.png"></div>
-				<div><img src="img/sertificate2.png"></div>
-				<div><img src="img/sertificate3.png"></div>
-				<div><img src="img/sertificate4.png"></div>
+				<div class="slide-sertificate"><img src="img/sertificate1.png"></div>
+				<div class="slide-sertificate"><img src="img/sertificate2.png"></div>
+				<div class="slide-sertificate"><img src="img/sertificate3.png"></div>
+				<div class="slide-sertificate"><img src="img/sertificate4.png"></div>
 			</div>
 		</div>
 	</section>
@@ -165,36 +161,27 @@
 				</div>
 			</div>
 			<div class="slider-partners">
-				<div>
+				<div class="slide-partner">
 					<img src="img/partner1.png">
 				</div>
-				<div>
+				<div class="slide-partner">
 					<img src="img/partner2.png">
 				</div>
-				<div>
+				<div class="slide-partner">
 					<img src="img/partner3.png">
 				</div>
-				<div>
+				<div class="slide-partner">
 					<img src="img/partner4.png">
 				</div>
-				<div>
+				<div class="slide-partner">
 					<img src="img/partner5.png">
 				</div>
 
-				<div>
+				<div class="slide-partner">
 					<img src="img/partner1.png">
 				</div>
-				<div>
+				<div class="slide-partner">
 					<img src="img/partner2.png">
-				</div>
-				<div>
-					<img src="img/partner3.png">
-				</div>
-				<div>
-					<img src="img/partner4.png">
-				</div>
-				<div>
-					<img src="img/partner5.png">
 				</div>
 			</div>
 		</div>

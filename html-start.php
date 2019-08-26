@@ -18,21 +18,21 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-2 d-flex align-items-center">
-						<a data-fancybox data-animation-duration="700" data-src="#topMap" href="javascript:;">
+						<a class="fancybox" href="#inline1">
 							<img src="img/icons/placemark.png" alt="" class="placemarkImg">
 						</a>
-							<div style="display: none;" id="topMap" class="animated-modal">
-								<div class="card">
-									<div class="card-header">
-										<h1>Карта</h1>
-									</div>
-									<div class="card-body">
-										<div class="topMap">
-											<div id="myMapModal" style="width:auto;height:100%"></div>
-										</div>
+						<div id="inline1" style=" display: none;">
+							<div class="card">
+								<div class="card-header">
+									<h1>Карта</h1>
+								</div>
+								<div class="card-body">
+									<div class="topMap">
+										<div id="myMapModal" style="width:auto;height:100%"></div>
 									</div>
 								</div>
 							</div>
+						</div>
 						<p>Удмуртия, г. Глазов, ул. Глинки 2</p>
 					</div>
 					<div class="col-lg-4 offset-lg-1">
@@ -87,7 +87,7 @@
 							<p>+7 (919) 910 64 83</p>
 						</div>
 						<div>
-							<a href="">
+							<a href="page-basket.php">
 								<img src="img/icons/basket.svg">
 								<div class="counter">
 									<p>2</p>
@@ -101,7 +101,9 @@
 		<div class="second-line container">
 			<div class="row">
 				<div class="col-lg-2">
-					<img src="img/logo.png" alt="">
+					<a href="index.php">
+						<img src="img/logo.png" alt="">
+					</a>
 				</div>
 				<div class="col-lg-10">
 					<nav>
@@ -166,10 +168,10 @@
 					</ul>
 					<div class="prelast-mobile-line">
 						<div class="col-6">
-							<p>+7 (34141) 3 84 94 <br> +7 (919) 910 64 83</p>
+							<p><a href="tel:+7 (34141) 3 84 94">+7 (34141) 3 84 94</a>  <a href="tel:+7 (919) 910 64 83">+7 (919) 910 64 83</a></p>
 						</div>
 						<div class="col-6">
-							<p>Salex73@ya.ru</p>
+							<p><a href="mailto:Salex73@ya.ru">Salex73@ya.ru</a></p>
 							<a data-fancybox data-animation-duration="700" data-src="#orderCall" href="javascript:;">
 								<div class="blueBtnDiv greenTranspBtnDiv">
 									<button class="blueBtn greenTranspBtn">ЗАКАЗАТЬ ЗВОНОК</button>
@@ -178,13 +180,21 @@
 						</div>
 					</div>
 					<div class="col-12 last-mobile-line">
-						<img src="img/icons/placemarkMob.svg">
-						<img src="img/icons/call-answer.svg">
-						<img src="img/icons/basketMob.svg">
+						<a class="fancybox" href="#inline1">
+							<img src="img/icons/placemarkMob.svg">
+						</a>
+						<a href="tel:+7 (34141) 3 84 94">
+							<img src="img/icons/call-answer.svg">
+						</a>
+						<a href="page-basket.php">
+							<img src="img/icons/basketMob.svg">
+						</a>
 					</div>
 				</div>
 				<div class="col-auto">
-					<img src="img/logo-mobile.png">
+					<a href="index.php" class="mobile-home-link">
+						<img src="img/logo-mobile.png">
+					</a>
 				</div>
 				<div class="col-auto">
 					<div class="search-container">

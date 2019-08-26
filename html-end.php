@@ -98,7 +98,7 @@
 		</div>
 		<div class="footer-mobile-line">
 			<div class="container">
-				<div class="row justify-content-center">
+				<div class="row footer-mobile-content justify-content-center">
 					<div class="col-10">
 						<div class="social-links">
 							<a href="">
@@ -121,11 +121,11 @@
 						</a>
 					</div>
 					<div class="col-10 d-flex justify-content-between">
-						<p>+7 (34141) 3 84 94</p>
-						<p>+7 (34141) 3 84 94</p>
+						<p><a href="tel:+7 (34141) 3 84 94">+7 (34141) 3 84 94</a></p>
+						<p><a href="tel:+7 (34141) 3 84 94">+7 (919) 910 64 83</a></p>
 					</div>
 					<div class="col-5">
-						<p>Salex73@ya.ru</p>
+						<p><a href="mailto:Salex73@ya.ru">Salex73@ya.ru</a></p>
 					</div>
 				</div>
 				<div class="footer-last-line row justify-content-between">

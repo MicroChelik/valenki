@@ -2,13 +2,49 @@
 	include('html-start.php');
 ?>
 	<section>
-		<div class="slider-main d-lg-block d-none">
+		<div class="slider-main">
+			<div class="slider-main-img">
+				<div class="container">
+					<div class="col-lg-5 col-12">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<a href="">
+							<button class="greenBtn">Подробнее</button>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="slider-main-img">
+				<div class="container">
+					<div class="col-lg-5 col-12">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="greenBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+			<div class="slider-main-img">
+				<div class="container">
+					<div class="col-lg-5 col-12">
+						<h1 class="slide-header">ВАЛЕНКИ</h1>
+						<p class="slide-text">для всей семьи</p>
+						<button class="greenBtn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- <div class="slider-main d-lg-block d-none">
 			<div class="slider-main-img">
 				<div class="container">
 					<div class="col-5">
 						<h1 class="slide-header">ВАЛЕНКИ</h1>
 						<p class="slide-text">для всей семьи</p>
-						<button class="greenBtn">Подробнее</button>
+						<a href="">
+							<button class="greenBtn">Подробнее</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -50,7 +86,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</section>
 	<section class="border-line">
 		<div class="container">

@@ -75,11 +75,11 @@
 				<div class="col-lg-6 col-12">
 					<h1>Название товара<br>в две строчки</h1>
 					<button class="redBtn">Вернуться к каталогу</button>
-					<div class="d-flex mb-2 text-uppercase">
+					<div class="d-lg-flex mb-2 text-uppercase">
 						<p class="mr-4">Артикул - <span>12345</span></p>
 						<p>Наличие - <span>изготовление в течение недели</span></p>
 					</div>
-					<div class="d-flex mb-4">
+					<div class="d-flex flex-wrap mb-4">
 						<p class="mb-0">ЦВЕТ:</p>
 						<div class="product-colors">
 							<div class="color-white active"></div>
@@ -169,8 +169,8 @@
 						<button class="greyBtn">Подошва резина</button>
 						<button class="greyBtn">Калоши</button>
 					</div>
-					<div class="d-flex align-items-center">
-						<p class="total mr-4 mb-0">Итог: <span>1800</span>  ₽</p>
+					<div class="d-lg-flex align-items-center">
+						<p class="total mr-4 mb-lg-0 mb-4">Итог: <span>1800</span>  ₽</p>
 						<button class="greenBtn">Заказать</button>
 					</div>
 				</div>
@@ -194,6 +194,8 @@
 			<div class="col-12">
 				<h2>Сопутствующие товары</h2>
 			</div>
+		</div>
+		<div class="row related-product-slider">
 			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
@@ -233,6 +235,8 @@
 			<div class="col-12">
 				<h2>Просмотренные товары</h2>
 			</div>
+		</div>
+		<div class="row watched-product-slider">
 			<div class="col-lg-3 col-12">
 				<div class="product-card">
 					<img src="img/product-img.png" class="product-img">
@@ -270,7 +274,7 @@
 	<section class="ask-us">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-5 col-12 offset-lg-1 offset-0">
+				<div class="col-lg-4 col-12 offset-lg-2 offset-0">
 					<form class="my-form-group d-lg-block d-none">
 						<h2>Задать вопрос</h2>
 						<div class="row justify-content-center">

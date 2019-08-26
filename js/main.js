@@ -215,6 +215,8 @@ $(document).ready(function(){
 				breakpoint: 960,
 				settings: {
 					slidesToShow: 1,
+					dots: true,
+					dotsClass: "my-dots",
 					slidesToScroll: 1,
 				}
 			}
@@ -236,6 +238,8 @@ $(document).ready(function(){
 				breakpoint: 960,
 				settings: {
 					slidesToShow: 1,
+					dots: true,
+					dotsClass: "my-dots",
 					slidesToScroll: 1,
 				}
 			}
@@ -262,6 +266,52 @@ $(document).ready(function(){
 			}
 		]
 	});
+	$('.related-product-slider').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: false,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 6000,
+				settings: "unslick",
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+					dots: true,
+					dotsClass: "my-dots",
+					slidesToScroll: 1,
+				}
+			}
+		]
+	});
+	$('.watched-product-slider').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: false,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 6000,
+				settings: "unslick",
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+					dots: true,
+					dotsClass: "my-dots",
+					slidesToScroll: 1,
+				}
+			}
+		]
+	});
 
 
 
@@ -276,19 +326,28 @@ $(document).ready(function(){
 		},
 	];
 
+	// var placemarksModal = [
+	// 	{
+	// 		lat : 58.150875066371974,
+	// 		long : 52.63911949999992,
+	// 		iconContent: 'Глазовские валенки',
+	// 		balloonContent: "Удмуртия, г. Глазов, ул. Глинки 2",
+	// 		preset: 'islands#greenStretchyIcon',
+	// 	},
+	// ];
 
-    var myMap, myAction, geoObjects= [];
+
+    var myMap = [];
+    var myMapodal = [];
+    var myAction = [];
+    var geoObjects = [];
+    var geoObjectsModal = [];
 
     ymaps.ready(init);
 
     function init(){ 
         // Создание карты.    
         var myMap = new ymaps.Map('myMap', {
-	        center: [56.87187756682612, 53.29298687301625],
-	        controls: ['largeMapDefaultSet'],
-	        zoom: 8
-    	});
-    	var myMapModal = new ymaps.Map('myMapModal', {
 	        center: [56.87187756682612, 53.29298687301625],
 	        controls: ['largeMapDefaultSet'],
 	        zoom: 8
@@ -303,7 +362,7 @@ $(document).ready(function(){
 					preset: placemarks[i].preset
 				}
 			);
-		}
+		};
 
 		var clusterer = new ymaps.Clusterer({ preset: 'islands#icon' });
 		myMap.geoObjects.add(clusterer);
@@ -311,6 +370,34 @@ $(document).ready(function(){
 
 		//myMap.geoObjects.add(myPlacemark);
 		clusterer.add(geoObjects);
+
+
+
+		// var myMapModal = new ymaps.Map('myMapModal', {
+	 //        center: [58.150875066371974, 52.63911949999992],
+	 //        controls: ['largeMapDefaultSet'],
+	 //        zoom: 16
+  //   	});
+
+
+  //   	for (var i = 0; i < placemarksModal.length; i++) {
+		// 	geoObjectsModal[i] = new ymaps.Placemark([placemarksModal[i].lat, placemarksModal[i].long], {
+		// 			balloonContent: placemarksModal[i].balloonContent,
+		// 			iconContent: placemarksModal[i].iconContent,
+		// 		},
+		// 		{
+		// 			preset: placemarksModal[i].preset
+		// 		}
+		// 	);
+		// };
+
+		// var clustererModal = new ymaps.Clusterer({ preset: 'islands#icon' });
+
+		// myMapModal.geoObjects.add(clustererModal);
+		// clustererModal.add(geoObjectsModal);
+
+
+
 
 		myMap.behaviors.disable('scrollZoom');
 
@@ -354,6 +441,42 @@ $(document).ready(function(){
 		});
 		        
 	};
+
+
+
+
+	ymaps.ready(function  () {
+ 
+	var myMapModal;
+	 
+		$('.fancybox').fancybox({height:600,afterShow : function() {
+	 
+			myMapModal = new ymaps.Map('myMapModal', {
+	        			center: [58.150875066371974, 52.63911949999992],
+	        			controls: ['largeMapDefaultSet'],
+	        			zoom: 17,
+						behaviors: ["scrollZoom","drag"]
+	                });	
+	 
+		var myPlacemark = new ymaps.Placemark([58.150875,52.639119], {
+	                    // Свойства
+	                    iconContent: 'Глазовские валенки',
+						balloonContent: "Удмуртия, г. Глазов, ул. Глинки 2",
+						preset: 'islands#greenStretchyIcon',
+	                }, {
+	                    // Опции
+	                    preset: 'islands#greenStretchyIcon',
+						balloonMaxWidth: 250
+	                });
+	 
+	            // Добавляем метку на карту
+	            myMapModal.geoObjects.add(myPlacemark);			
+	 
+		}, afterClose:function (){
+		    myMapModal.destroy();		
+			myMapModal = null;
+		}});
+	});
 
 
 

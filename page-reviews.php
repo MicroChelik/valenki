@@ -122,8 +122,8 @@
 	<section class="ask-us">
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-lg-5 col-12 offset-lg-1 offset-0">
-					<form class="my-form-group">
+				<div class="col-lg-4 col-12 offset-lg-2 offset-0">
+					<form class="my-form-group d-lg-block d-none">
 						<h2>Оставить отзыв</h2>
 						<div class="row justify-content-center">
 							<div class="col-lg-6 col-12">
@@ -140,6 +140,25 @@
 							<div class="form-group col-lg-6 col-12">
 								<input type="email" class="" placeholder="E-mail (по желанию)">
 								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+								<input type="submit" class="greenBtn">
+							</div>
+						</div>
+					</form>
+					<form class="my-form-group d-block d-lg-none">
+						<h2>Оставить отзыв</h2>
+						<div class="row justify-content-center">
+							<div class="col-12">
+								<input type="text" class="" placeholder="Имя">
+								<input type="tel" class="" placeholder="Номер телефона">
+								<input type="email" class="" placeholder="E-mail (по желанию)">
+								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+								<div class="d-flex align-items-center div-inputfile">
+									<img src="img/icons/attachment.png" class="mr-2">
+									<input type="file" class="inputfile" id="file">
+									<label for="file" class="mb-0 mr-3">Прикрепить файл:</label>
+									<p class="user-file">+ File1.jpg</p>
+								</div>
+								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 								<input type="submit" class="greenBtn">
 							</div>
 						</div>

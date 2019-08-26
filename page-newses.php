@@ -11,10 +11,10 @@
 	</div>
 	<section class="container">
 		<div class="row">
-			<div class="col-3">
+			<div class="col-lg-3">
 				<h1>Новости и акции</h1>
 			</div>
-			<div class="col-1 d-flex justify-content-between">
+			<div class="col-lg-1 col-4 newses-social d-flex justify-content-between">
 				<a href="">
 					<img src="img/icons/social1.png">
 				</a>

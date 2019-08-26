@@ -22,7 +22,7 @@
 								<img src="img/product-img.png">
 							</div>
 						</div>
-						<div class="col-lg-2 col-12 basket-card-div pl-5">
+						<div class="col-lg-2 col-12 basket-card-div pl-lg-5">
 							<p>Название товара в две строчки</p>
 						</div>
 						<div class="col-lg-2 col-12 offset-lg-1 offset-0 basket-card-div justify-content-lg-start justify-content-center">
@@ -35,7 +35,7 @@
 								<button class="inc">+</button>
 							</div>
 						</div>
-						<div class="col-lg-3 col-12 basket-card-div justify-content-center">
+						<div class="col-lg-3 col-12 mb-0 basket-card-div justify-content-center">
 							<p>Стоимость: </p>
 							<p class="price">1 800 ₽</p>
 						</div>
@@ -49,7 +49,7 @@
 								<img src="img/product-img.png">
 							</div>
 						</div>
-						<div class="col-lg-2 col-12 basket-card-div pl-5">
+						<div class="col-lg-2 col-12 basket-card-div pl-lg-5">
 							<p>Название товара в две строчки</p>
 						</div>
 						<div class="col-lg-2 col-12 offset-lg-1 offset-0 basket-card-div justify-content-lg-start justify-content-center">
@@ -62,7 +62,7 @@
 								<button class="inc">+</button>
 							</div>
 						</div>
-						<div class="col-lg-3 col-12 basket-card-div justify-content-center">
+						<div class="col-lg-3 col-12 mb-0 basket-card-div justify-content-center">
 							<p>Стоимость: </p>
 							<p class="price">1 800 ₽</p>
 						</div>
