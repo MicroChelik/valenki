@@ -28,21 +28,21 @@
 									<div class="card-body">
 										<form class="row">
 											<div class="col-6 d-none d-lg-block">
-												<input type="text" placeholder="Имя">
-												<input type="email" placeholder="E-mail">
+												<input type="text" placeholder="Имя" required="">
+												<input type="email" placeholder="E-mail" required="">
 												<p>
 													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
 												</p>
 											</div>
 											<div class="col-6 d-none d-lg-block">
-												<input type="tel" placeholder="Номер телефона">
-												<textarea placeholder="Комментарий"></textarea>
+												<input type="tel" placeholder="Номер телефона" required="">
+												<textarea placeholder="Комментарий" required=""></textarea>
 											</div>
 											<div class="col-12 d-block d-lg-none">
-												<input type="text" placeholder="Имя">
-												<input type="email" placeholder="E-mail">
-												<input type="tel" placeholder="Номер телефона">
-												<textarea placeholder="Комментарий"></textarea>
+												<input type="text" placeholder="Имя" required="">
+												<input type="email" placeholder="E-mail" required="">
+												<input type="tel" placeholder="Номер телефона" required="">
+												<textarea placeholder="Комментарий" required=""></textarea>
 												<p>
 													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
 												</p>

@@ -56,13 +56,13 @@
 										</div>
 										<div class="card-body">
 											<form>
-												<input type="text" placeholder="Имя">
-												<input type="tel" placeholder="Номер телефона">
+												<input type="text" placeholder="Имя" required>
+												<input type="tel" placeholder="Номер телефона" required="">
 												<p>
 													Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a>
 												</p>
 												<a data-fancybox data-animation-duration="700" data-src="#thanks" href="javascript:;">
-													<input type="submit" placeholder="Заказать" class="greenBtn">
+													<input type="submit" placeholder="Заказать" value="Заказать" class="greenBtn">
 												</a>
 											</form>
 										</div>

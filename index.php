@@ -33,60 +33,6 @@
 				</div>
 			</div>
 		</div>
-
-
-
-		<!-- <div class="slider-main d-lg-block d-none">
-			<div class="slider-main-img">
-				<div class="container">
-					<div class="col-5">
-						<h1 class="slide-header">ВАЛЕНКИ</h1>
-						<p class="slide-text">для всей семьи</p>
-						<a href="">
-							<button class="greenBtn">Подробнее</button>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="slider-main-img">
-				<div class="container">
-					<div class="col-5">
-						<h1 class="slide-header">ВАЛЕНКИ</h1>
-						<p class="slide-text">для всей семьи</p>
-						<button class="greenBtn">Подробнее</button>
-					</div>
-				</div>
-			</div>
-			<div class="slider-main-img">
-				<div class="container">
-					<div class="col-5">
-						<h1 class="slide-header">ВАЛЕНКИ</h1>
-						<p class="slide-text">для всей семьи</p>
-						<button class="greenBtn">Подробнее</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="slider-mobile-main d-block d-lg-none">
-			<div class="slider-mobile-main-img">
-				<div class="container">
-					<div class="col-12">
-						<h1 class="slide-header">ВАЛЕНКИ</h1>
-						<p class="slide-text">для всей семьи</p>
-						<button class="greenBtn">Подробнее</button>
-					</div>
-				</div>
-			</div>
-			<div class="slider-mobile-main-img">
-				<div class="container">
-					<div class="col-12">
-						<h1 class="slide-header">ВАЛЕНКИ</h1>
-						<p class="slide-text">для всей семьи</p>
-						<button class="greenBtn">Подробнее</button>
-					</div>
-				</div>
-			</div>
-		</div> -->
 	</section>
 	<section class="border-line">
 		<div class="container">
@@ -136,7 +82,7 @@
 				</div>
 				<div class="col-lg-3">
 					<img src="img/icons/test.png">
-					<p>Без использования<br>химии</p>
+					<p class="mb-0">Без использования<br>химии</p>
 				</div>
 			</div>
 			<div class="row product-targets">
@@ -177,9 +123,9 @@
 				</div>
 				<div class="col-lg-7 col-12 subscribe-input">
 					<form>
-						<input type="text" placeholder="Имя">
-						<input type="email" placeholder="E-mail">
-						<input type="submit" placeholder="Подписаться" class="greenBtn">
+						<input type="text" placeholder="Имя" required="">
+						<input type="email" placeholder="E-mail" required="">
+						<input type="submit" placeholder="Подписаться" value="Подписаться" class="greenBtn">
 					</form>
 				</div>
 			</div>
@@ -232,21 +178,21 @@
 					<h2>Поможем с выбором и ответим на Ваши вопросы!</h2>
 					<div class="row justify-content-center">
 						<div class="col-lg-6 col-12 order-1">
-							<input type="text" class="" placeholder="Имя">
+							<input type="text" class="" placeholder="Имя" required="">
 						</div>
 						<div class="col-lg-6 col-12 order-2">
 							<input type="email" class="" placeholder="E-mail (по желанию)">
 						</div>
 						<div class="col-lg-6 col-12 order-4 order-lg-3">
-							<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+							<textarea class="" rows="3" placeholder="Комментарий" required=""></textarea>
 							<p class="d-block d-lg-none">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 						</div>
 						<div class="col-lg-6 col-12 order-3 order-lg-4">
-							<input type="text" class="" placeholder="Номер телефона">
+							<input type="text" class="" placeholder="Номер телефона" required="">
 							<p class="d-none d-lg-block">Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 						</div>
 						<div class="col-lg-4 col-8 order-5">
-							<input type="submit" class="greenBtn">
+							<input type="submit" placeholder="Отправить" value="Отправить" class="greenBtn">
 						</div>
 					</div>
 				</form>

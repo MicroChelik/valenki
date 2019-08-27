@@ -123,29 +123,29 @@
 			<div class="row">
 				<form class="order-form">
 					<div class="col-lg-4 order-0">
-						<input type="text" placeholder="ФИО">
-						<input type="text" placeholder="Страна">
+						<input type="text" placeholder="ФИО" required="">
+						<input type="text" placeholder="Страна" required="">
 					</div>
 					<div class="col-lg-2 order-0">
-						<input type="email" placeholder="E-mail">
-						<input type="text" placeholder="Город">
+						<input type="email" placeholder="E-mail" required="">
+						<input type="text" placeholder="Город" required="">
 					</div>
 					<div class="col-lg-2 order-0">
-						<input type="tel" placeholder="Номер телефона">
-						<input type="number" placeholder="Почтовый индекс">
+						<input type="tel" placeholder="Номер телефона" required="">
+						<input type="number" placeholder="Почтовый индекс" required="">
 					</div>
 					<div class="col-lg-4 order-lg-0 order-2">
 						<textarea placeholder="Комментарий"></textarea>
 					</div>
 
 					<div class="col-lg-7 order-lg-0 order-1">
-						<input type="text" placeholder="Адрес" class="">
+						<input type="text" placeholder="Адрес" class="" required="">
 					</div>
 					<div class="col-lg-3 order-lg-0 order-3">
 						<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 					</div>
 					<div class="col-lg-2 ml-auto order-lg-0 order-4">
-						<input type="submit" class="greenBtn">
+						<input type="submit" class="greenBtn" value="Оформить заказ">
 					</div>
 				</form>
 			</div>

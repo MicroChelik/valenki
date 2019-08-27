@@ -89,7 +89,7 @@
 				</div>
 
 			</div>
-			<div class="row pagination-tools">
+			<div class="row pagination-tools page-reviews-pagination">
 				<div class="col-auto">
 					<div class="pagination">
 						<p class="first-page">1</p>
@@ -127,8 +127,8 @@
 						<h2>Оставить отзыв</h2>
 						<div class="row justify-content-center">
 							<div class="col-lg-6 col-12">
-								<input type="text" class="" placeholder="Имя">
-								<input type="tel" class="" placeholder="Номер телефона">
+								<input type="text" class="" placeholder="Имя" required="">
+								<input type="tel" class="" placeholder="Номер телефона" required="">
 								<div class="d-flex align-items-center div-inputfile">
 									<img src="img/icons/attachment.png" class="mr-2">
 									<input type="file" class="inputfile" id="file">
@@ -138,9 +138,9 @@
 								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
 							</div>
 							<div class="form-group col-lg-6 col-12">
-								<input type="email" class="" placeholder="E-mail (по желанию)">
-								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
-								<input type="submit" class="greenBtn">
+								<input type="email" class="" placeholder="E-mail" required="">
+								<textarea class="" rows="3" placeholder="Комментарий" required=""></textarea>
+								<input type="submit" class="greenBtn"  value="Отправить">
 							</div>
 						</div>
 					</form>
@@ -148,10 +148,10 @@
 						<h2>Оставить отзыв</h2>
 						<div class="row justify-content-center">
 							<div class="col-12">
-								<input type="text" class="" placeholder="Имя">
-								<input type="tel" class="" placeholder="Номер телефона">
-								<input type="email" class="" placeholder="E-mail (по желанию)">
-								<textarea class="" rows="3" placeholder="Комментарий"></textarea>
+								<input type="text" class="" placeholder="Имя" required="">
+								<input type="tel" class="" placeholder="Номер телефона" required="">
+								<input type="email" class="" placeholder="E-mail" required="">
+								<textarea class="" rows="3" placeholder="Комментарий" required=""></textarea>
 								<div class="d-flex align-items-center div-inputfile">
 									<img src="img/icons/attachment.png" class="mr-2">
 									<input type="file" class="inputfile" id="file">
@@ -159,7 +159,7 @@
 									<p class="user-file">+ File1.jpg</p>
 								</div>
 								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
-								<input type="submit" class="greenBtn">
+								<input type="submit" class="greenBtn"  value="Отправить">
 							</div>
 						</div>
 					</form>

@@ -88,6 +88,8 @@ $(document).ready(function(){
 		arrows: false,
 		dots: true,
 		dotsClass: "my-dots",
+		autoplay: true,
+  		autoplaySpeed: 5000,
 	});
 	$('.slider-mobile-main').slick({
 		infinite: false,
@@ -96,6 +98,8 @@ $(document).ready(function(){
 		arrows: false,
 		dots: true,
 		dotsClass: "my-dots",
+		autoplay: true,
+  		autoplaySpeed: 5000,
 	});
 	$('.slider-production').slick({
 		infinite: false,
@@ -104,13 +108,15 @@ $(document).ready(function(){
 		arrows: false,
 		dots: true,
 		dotsClass: "my-dots",
+		autoplay: true,
+  		autoplaySpeed: 5000,
 	});
 	$('.slider-letters').slick({
 		infinite: false,
 		slidesToShow: 5,
 		slidesToScroll: 1,
 		arrows: false,
-		dots: true,
+		dots: false,
 		swipeToSlide: true,
 		dotsClass: "my-dots",
 		responsive: [
@@ -118,7 +124,10 @@ $(document).ready(function(){
 				breakpoint: 960,
 				settings: {
 					slidesToShow: 1,
+					dots: true,
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]
@@ -137,6 +146,8 @@ $(document).ready(function(){
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]
@@ -195,6 +206,8 @@ $(document).ready(function(){
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]
@@ -218,6 +231,8 @@ $(document).ready(function(){
 					dots: true,
 					dotsClass: "my-dots",
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]
@@ -241,6 +256,8 @@ $(document).ready(function(){
 					dots: true,
 					dotsClass: "my-dots",
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]
@@ -260,8 +277,12 @@ $(document).ready(function(){
 			{
 				breakpoint: 960,
 				settings: {
+					dots: true,
+					dotsClass: "my-dots",
 					slidesToShow: 1,
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]
@@ -285,6 +306,8 @@ $(document).ready(function(){
 					dots: true,
 					dotsClass: "my-dots",
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]
@@ -308,6 +331,8 @@ $(document).ready(function(){
 					dots: true,
 					dotsClass: "my-dots",
 					slidesToScroll: 1,
+					autoplay: true,
+  					autoplaySpeed: 5000,
 				}
 			}
 		]

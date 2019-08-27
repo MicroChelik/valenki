@@ -6,7 +6,7 @@
 			<ol class="breadcrumb">
 		    	<li class="breadcrumb-item"><a href="index.php">Главная</a></li>
 		    	<li class="breadcrumb-item"><a href="index.php">Новости и акции</a></li>
-	    		<li class="breadcrumb-item active" aria-current="page">Название новости</li>
+	    		<li class="breadcrumb-item active d-lg-block d-none" aria-current="page">Название новости</li>
 		 	</ol>
 		</div>
 	</div>
