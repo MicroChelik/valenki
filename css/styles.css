@@ -1536,7 +1536,9 @@ footer ul a:hover{
   position: absolute;
   background: linear-gradient(0deg, #523C31 -1.36%, rgba(82, 60, 49, 0) 29.08%);
 }
-
+select{
+  cursor: pointer;
+}
 
 
 
