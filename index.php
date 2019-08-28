@@ -39,27 +39,37 @@
 			<div class="row img-rounded">
 				<div class="col-auto">
 					<div class="img-card val1">
-						<h3>ВАЛЕНКИ</h3>
+						<a href="">
+							<h3>ВАЛЕНКИ</h3>
+						</a>
 					</div>
 				</div>
 				<div class="col-auto">
 					<div class="img-card val2">
-						<h3>ТАПОЧКИ</h3>
+						<a href="">
+							<h3>ТАПОЧКИ</h3>
+						</a>
 					</div>
 				</div>
 				<div class="col-auto">
 					<div class="img-card val3">
-						<h3>ПОЛУВАЛЕНКИ</h3>
+						<a href="">
+							<h3>ПОЛУВАЛЕНКИ</h3>
+						</a>
 					</div>
 				</div>
 				<div class="col-auto">
 					<div class="img-card val4">
-						<h3>БОТИНКИ</h3>
+						<a href="">
+							<h3>БОТИНКИ</h3>
+						</a>
 					</div>
 				</div>
 				<div class="col-auto">
 					<div class="img-card val5">
-						<h3>СОПУТСТВУЮЩИЕ<br>ТОВАРЫ</h3>
+						<a href="">
+							<h3>СОПУТСТВУЮЩИЕ<br>ТОВАРЫ</h3>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -67,7 +77,7 @@
 	</section>
 	<section>
 		<div class="container">
-			<div class="row advantages">
+			<div class="row advantages slider-advantages">
 				<div class="col-lg-3">
 					<img src="img/icons/clock.png">
 					<p>20 лет на<br>рынке</p>

@@ -337,6 +337,31 @@ $(document).ready(function(){
 			}
 		]
 	});
+	$('.slider-advantages').slick({
+		infinite: false,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		dots: false,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 6000,
+				settings: "unslick",
+			},
+			{
+				breakpoint: 960,
+				settings: {
+					slidesToShow: 1,
+					dots: true,
+					dotsClass: "my-dots",
+					slidesToScroll: 1,
+					autoplay: false,
+  					autoplaySpeed: 5000,
+				}
+			}
+		]
+	});
 
 
 
