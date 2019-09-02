@@ -171,7 +171,8 @@
 					</div>
 					<div class="d-lg-flex align-items-center">
 						<p class="total mr-4 mb-lg-0 mb-4">Итог: <span>1800</span>  ₽</p>
-						<button class="greenBtn">Заказать</button>
+						<button class="greenBtn productBtn">Добавить в корзину</button>
+						<button class="greenBtn productBtn mr-0">Оформить заказ</button>
 					</div>
 				</div>
 			</div>

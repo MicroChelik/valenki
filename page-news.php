@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-12">
-				<button class="redBtn d-none d-lg-block">Вернуться к каталогу</button>
+				<button class="redBtn d-none d-lg-block">Вернуться к новостям</button>
 				<h1 class="mb-0  d-none d-lg-block">Название новости</h1>
 				<p class="news-big-date">02.02.2019</p>
 				<p>Имеется спорная точка зрения, гласящая примерно следующее: акционеры крупнейших компаний будут объявлены нарушающими общечеловеческие нормы этики и морали.</p>

@@ -18,21 +18,28 @@
 				</div>
 			</div>
 			<div class="row d-none d-lg-flex">
-				<div class="col-6 filters">
+				<div class="col-xl-6 col-12 filters">
 					<p>Фильтры</p>
-					<p class="filter filter1">с подошвой</p>
-					<p class="filter filter2">без подошвы</p>
+						<select>
+							<option>С подошвой</option>
+							<option>Без подошвы</option>
+						</select>
+					</select>
+					<select>
+						<option>Выбор цвета</option>
+						<option>цвет1</option>
+					</select>
 					<select>
 						<option>Выбор рисунка</option>
 						<option>2</option>
 					</select>
 				</div>
-				<div class="col-6 sorting">
+				<div class="col-xl-6 col-12 sorting">
 					<p>Сортировать</p>
 					<p class="sort sorting1">Убывание цен</p>
 					<p class="sort sorting2">Возрастание цен</p>
 					<p class="sort sorting3">Новинка</p>
-					<p class="last-sorting"></p>
+					<p class="sort sorting4 last-sorting">Скидка</p>
 				</div>
 			</div>
 			<div class="row d-flex d-lg-none filter-sort-mobile">
@@ -46,9 +53,14 @@
 				</div>
 				<div class="col-12">
 					<div class="filters">
-						<p class="filter filter1">с подошвой</p>
-						<p class="filter filter2">без подошвы</p>
-						<hr>
+						<select>
+							<option>С подошвой</option>
+							<option>Без подошвы</option>
+						</select>
+						<select>
+							<option>Выбор цвета</option>
+							<option>цвет1</option>
+						</select>
 						<select>
 							<option>Выбор рисунка</option>
 							<option>2</option>
@@ -61,6 +73,7 @@
 						<p class="sort sorting2">Возрастание цен</p>
 						<hr>
 						<p class="sort sorting3">Новинка</p>
+						<p class="sort sorting4">Скидка</p>
 					</div>
 				</div>
 			</div>

@@ -108,6 +108,58 @@
 		</div>
 	</section>
 
+	<section class="ask-us">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-lg-4 col-12 offset-lg-2 offset-0">
+					<form class="my-form-group d-lg-block d-none">
+						<h2>Задать вопрос</h2>
+						<div class="row justify-content-center">
+							<div class="col-lg-6 col-12">
+								<input type="text" class="" placeholder="Имя" required="">
+								<input type="tel" class="" placeholder="Номер телефона" required="">
+								<div class="d-flex align-items-center div-inputfile">
+									<img src="img/icons/attachment.png" class="mr-2">
+									<input type="file" class="inputfile" id="file">
+									<label for="file" class="mb-0 mr-3">Прикрепить файл:</label>
+									<p class="user-file">+ File1.jpg</p>
+								</div>
+								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
+							</div>
+							<div class="form-group col-lg-6 col-12">
+								<input type="email" class="" placeholder="E-mail" required="">
+								<textarea class="" rows="3" placeholder="Вопрос" required=""></textarea>
+								<input type="submit" class="greenBtn"  value="Отправить">
+							</div>
+						</div>
+					</form>
+					<form class="my-form-group d-block d-lg-none">
+						<h2>Задать вопрос</h2>
+						<div class="row justify-content-center">
+							<div class="col-12">
+								<input type="text" class="" placeholder="Имя" required="">
+								<input type="tel" class="" placeholder="Номер телефона" required="">
+								<input type="email" class="" placeholder="E-mail" required="">
+								<textarea class="" rows="3" placeholder="Вопрос" required=""></textarea>
+								<div class="d-flex align-items-center div-inputfile">
+									<img src="img/icons/attachment.png" class="mr-2">
+									<input type="file" class="inputfile" id="file">
+									<label for="file" class="mb-0 mr-3">Прикрепить файл:</label>
+									<p class="user-file">+ File1.jpg</p>
+								</div>
+								<p>Нажимая на кнопку, вы даете свое согласие на обработку персональных данных. <a href="">Узнать больше</a></p>
+								<input type="submit" class="greenBtn"  value="Отправить">
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="col-6 ask-us-img pr-0">
+					<img src="img/bg2.png">
+				</div>
+			</div>
+		</div>
+	</section>
+
 <?php
 	include('html-end.php');
 ?>

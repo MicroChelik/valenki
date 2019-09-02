@@ -18,82 +18,108 @@
 			</div>
 			<div class="row catalog-images">
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img1">
-						<p>Женские валенки</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img1">
+							<p>Женские валенки</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img2">
-						<p>Мужские валенки</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img2">
+							<p>Мужские валенки</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img3">
-						<p>Детские валенки</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img3">
+							<p>Детские валенки</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img4">
-						<p>Женские тапочки</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img4">
+							<p>Женские тапочки</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img5">
-						<p>Мужские тапочки</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img5">
+							<p>Мужские тапочки</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img6">
-						<p>Детские тапочки</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img6">
+							<p>Детские тапочки</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img7">
-						<p>Чуни женские</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img7">
+							<p>Чуни женские</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img8">
-						<p>Мужские чуни</p>
-						<div class="gradient"></div>
-					</div>
+					<a href="">
+						<div class="catalog-img catalog-img8">
+							<p>Мужские чуни</p>
+							<div class="gradient"></div>
+						</div>
+					</a>
 				</div>
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img9">
-						<p>Войлочные ботинки</p>
-						<div class="gradient"></div>
-					</div> 	
+					<a href="">
+						<div class="catalog-img catalog-img9">
+							<p>Войлочные ботинки</p>
+							<div class="gradient"></div>
+						</div> 
+					</a>	
 				</div>	
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img10">
-						<p>ботинки</p>
-						<div class="gradient"></div>
-					</div> 	
+					<a href="">
+						<div class="catalog-img catalog-img10">
+							<p>ботинки</p>
+							<div class="gradient"></div>
+						</div> 	
+					</a>
 				</div>	
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img11">
-						<p>Калоши</p>
-						<div class="gradient"></div>
-					</div> 	
+					<a href="">
+						<div class="catalog-img catalog-img11">
+							<p>Калоши</p>
+							<div class="gradient"></div>
+						</div> 
+					</a>	
 				</div>	
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img12">
-						<p>стельки</p>
-						<div class="gradient"></div>
-					</div> 	
+					<a href="">
+						<div class="catalog-img catalog-img12">
+							<p>стельки</p>
+							<div class="gradient"></div>
+						</div>
+					</a> 	
 				</div>	
 				<div class="col-lg-4 col-12">
-					<div class="catalog-img catalog-img13">
-						<p>Сувенирка</p>
-						<div class="gradient"></div>
-					</div> 	
+					<a href="">
+						<div class="catalog-img catalog-img13">
+							<p>Сувенирка</p>
+							<div class="gradient"></div>
+						</div>
+					</a> 	
 				</div>	
 			</div>
 			<div class="row">

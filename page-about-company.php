@@ -127,13 +127,31 @@
 				</div>
 			</div>
 			<div class="row m-0 slider-letters">
-				<div class="slide-letter"><img src="img/letter1.png"></div>
-				<div class="slide-letter"><img src="img/letter2.png"></div>
-				<div class="slide-letter"><img src="img/letter3.png"></div>
-				<div class="slide-letter"><img src="img/letter4.png"></div>
-				<div class="slide-letter"><img src="img/letter5.png"></div>
-
-				<div class="slide-letter"><img src="img/letter1.png"></div>
+				<div class="slide-letter">
+					<a href="img/letter1.png" data-fancybox="images">
+						<img src="img/letter1.png">
+					</a>
+				</div>
+				<div class="slide-letter">
+					<a href="img/letter2.png" data-fancybox="images">
+						<img src="img/letter2.png">
+					</a>
+				</div>
+				<div class="slide-letter">
+					<a href="img/letter3.png" data-fancybox="images">
+						<img src="img/letter3.png">
+					</a>
+				</div>
+				<div class="slide-letter">
+					<a href="img/letter4.png" data-fancybox="images">
+						<img src="img/letter4.png">
+					</a>
+				</div>
+				<div class="slide-letter">
+					<a href="img/letter5.png" data-fancybox="images">
+						<img src="img/letter5.png">
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -146,10 +164,26 @@
 				
 			</div>
 			<div class="slider-sertificates">
-				<div class="slide-sertificate"><img src="img/sertificate1.png"></div>
-				<div class="slide-sertificate"><img src="img/sertificate2.png"></div>
-				<div class="slide-sertificate"><img src="img/sertificate3.png"></div>
-				<div class="slide-sertificate"><img src="img/sertificate4.png"></div>
+				<div class="slide-sertificate">
+					<a href="img/sertificate1.png" data-fancybox="images">
+						<img src="img/sertificate1.png">
+					</a>
+				</div>
+				<div class="slide-sertificate">
+					<a href="img/sertificate2.png" data-fancybox="images">
+						<img src="img/sertificate2.png">
+					</a>
+				</div>
+				<div class="slide-sertificate">
+					<a href="img/sertificate3.png" data-fancybox="images">
+						<img src="img/sertificate3.png">
+					</a>
+				</div>
+				<div class="slide-sertificate">
+					<a href="img/sertificate4.png" data-fancybox="images">
+						<img src="img/sertificate4.png">
+					</a>
+				</div>
 			</div>
 		</div>
 	</section>

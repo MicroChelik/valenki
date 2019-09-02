@@ -150,7 +150,7 @@
 			</div>
 			<div class="row all-photos-row">
 				<div class="col-auto">
-					<button class="all-photos">Смотреть все фото</button>
+					<button class="all-photos">Смотреть всю продукцию</button>
 				</div>
 			</div>
 			<div class="row slider-our-products">
